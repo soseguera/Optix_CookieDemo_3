@@ -809,7 +809,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
         - Name: ColorizationMode
           Type: BaseDataVariableType
           DataType: ColorizationModeEnum
@@ -921,7 +921,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label2
         Type: Label
         Children:
@@ -1038,7 +1038,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label3
         Type: Label
         Children:
@@ -1372,7 +1372,7 @@ Children:
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#808080"
+              Value: "#ff0000"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1427,7 +1427,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label3
         Type: Label
         Children:
@@ -1597,7 +1597,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label1
         Type: Label
         Children:
@@ -1704,7 +1704,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label2
         Type: Label
         Children:
@@ -1821,7 +1821,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label3
         Type: Label
         Children:
@@ -1947,7 +1947,7 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 8.0
-- Name: Alarms_n_Events
+- Name: Alarms_Events
   Id: g=328418439e4a2eb3dd6c8d52cc20a311
   Supertype: Screen
   ReferenceType: HasComponent
