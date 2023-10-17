@@ -4485,8 +4485,12 @@ Children:
       - Name: AutoRefreshTime
         Type: BaseDataVariableType
         DataType: Duration
-        ModellingRule: Optional
         Value: "0:00:00:5.0000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Auto_Refresh_Time_Value"
     - Name: Button1
       Type: Button
       Children:
