@@ -3765,7 +3765,7 @@ Children:
       - Name: AlarmEventsLogger
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Value: {"IdType":2,"Id":"d9b4eee1f3f53db4d2e5880332edd28f","Namespace":7}
         Children:
         - Name: Kind
           Type: PropertyType

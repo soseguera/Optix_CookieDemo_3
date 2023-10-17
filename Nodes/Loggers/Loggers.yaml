@@ -352,6 +352,7 @@ Children:
     DataType: Boolean
     Value: true
 - Name: AlarmsEventLogger1
+  Id: g=d9b4eee1f3f53db4d2e5880332edd28f
   Type: EventLogger
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
