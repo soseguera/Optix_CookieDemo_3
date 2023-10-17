@@ -17,6 +17,7 @@ using FTOptix.CommunicationDriver;
 using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.Recipe;
+using FTOptix.ODBCStore;
 #endregion
 
 public class PublicLogic : BaseNetLogic

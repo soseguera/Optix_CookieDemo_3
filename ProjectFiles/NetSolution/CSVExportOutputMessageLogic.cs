@@ -16,6 +16,7 @@ using FTOptix.RAEtherNetIP;
 using FTOptix.CommunicationDriver;
 using FTOptix.NetLogic;
 using FTOptix.Core;
+using FTOptix.ODBCStore;
 #endregion
 
 public class CSVExportOutputMessageLogic : BaseNetLogic

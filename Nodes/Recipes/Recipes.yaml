@@ -110,3 +110,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
+  - Name: TableName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
