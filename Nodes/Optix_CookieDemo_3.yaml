@@ -54,3 +54,12 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: Recipe_mixer
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"13f14072253b56ef008c261f11917928","Namespace":7}
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"13f14072253b56ef008c261f11917928","Namespace":7}
