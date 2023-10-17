@@ -4586,7 +4586,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
-                Value: {"IdType":2,"Id":"441ab14b1c8ec78193a52607e39dcace","Namespace":7}
+                Value: {"IdType":2,"Id":"723f2c9ab4419b25ff6630d2812d6a1e","Namespace":7}
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
@@ -4845,6 +4845,17 @@ Children:
         Value: 1
       - Name: CSVExportOutputMessageLogic
         Type: NetLogic
+        Children:
+        - Class: Method
+          Name: SetOutputMessage
+          Children:
+          - Name: ns=0;InputArguments
+            Type: BaseVariableType
+            DataType: Argument
+            ReferenceType: HasProperty
+            ValueRank: OneDimension
+            ArrayDimensions: [0]
+            Value: [{"TypeId":{"Id":296},"Body":{"Name":"message","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
       - Name: Message
         Type: BaseDataVariableType
         DataType: String

@@ -52,7 +52,7 @@ Children:
     Id: g=315caf8bf2dac320679d5b7e88981536
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"High Power consumption presented"}
+    Value: {"LocaleId":"en-US","Text":"High vibration in main motor presented. Check bearings"}
 - Name: Oven High Temperature
   Id: g=7152e0603dbce4a2d74d63ded433bee0
   Type: ExclusiveLevelAlarmController
