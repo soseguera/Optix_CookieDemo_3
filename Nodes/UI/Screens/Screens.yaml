@@ -6347,15 +6347,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 48.0
-    - Name: RecipeSchema
-      Type: NodePointer
-      DataType: NodeId
-      Value: {"IdType":2,"Id":"9d3653c8112a5664b389b8a79897e148","Namespace":7}
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: Mixer
       Type: Panel
       Children:
@@ -7019,6 +7010,10 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 80.0
+      - Name: RecipeSchema
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"9d3653c8112a5664b389b8a79897e148","Namespace":7}
 - Name: ExportCSVFile
   Id: g=723f2c9ab4419b25ff6630d2812d6a1e
   Supertype: Dialog
