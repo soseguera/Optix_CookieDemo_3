@@ -2,14 +2,47 @@ Name: Labeler
 Type: FolderType
 Children:
 - Name: Labeler_Temperature
+  Id: g=785c46ed3b56ac109b0cb3c58413dcbe
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Temperature"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Labeler_Pressure
+  Id: g=da637037be781326bf4bf9f81899986a
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Pressure"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Labeler_Vibration
+  Id: g=dc1960608af860b3c1711bd7d85caf0f
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Vibration"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

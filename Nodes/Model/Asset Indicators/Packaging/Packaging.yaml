@@ -2,14 +2,47 @@ Name: Packaging
 Type: FolderType
 Children:
 - Name: Packaging_Temperature
+  Id: g=cd9f240e5904bb59f88eaee0dc966923
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Temperature"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Packaging_Pressure
+  Id: g=8e73ecf84f92fd2c1055c9f48b6c2649
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Pressure"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Packaging_Vibration
+  Id: g=9a93c96d745d53b29bf8461b27523651
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Vibration"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

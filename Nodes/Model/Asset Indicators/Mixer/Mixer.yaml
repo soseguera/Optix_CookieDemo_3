@@ -2,6 +2,7 @@ Name: Mixer
 Type: FolderType
 Children:
 - Name: Mixer_Temperature
+  Id: g=8ec461f5ad2b113bf541fcfc2c85247f
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -9,13 +10,14 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/Cookie_Controller/Tags/Controller Tags/Mixer_Temperature"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Temperature"
     Children:
     - Name: Mode
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: Mixer_Pressure
+  Id: g=eac28a746827d387031bf51ee9dbb8d2
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -23,13 +25,14 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../Mixer_Pressure"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Pressure"
     Children:
     - Name: Mode
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: Mixer_Vibration
+  Id: g=1deea47ea985fae3a49711f3c0429174
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -37,7 +40,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../Mixer_Vibration"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Vibration"
     Children:
     - Name: Mode
       Type: BaseVariableType
