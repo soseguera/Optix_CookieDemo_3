@@ -77,6 +77,10 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":12,"Namespace":3}
+  - Name: DynamicVariablesPollingTime
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
