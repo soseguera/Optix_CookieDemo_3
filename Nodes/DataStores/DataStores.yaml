@@ -324,7 +324,7 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    SecretValue: 7Ov/6p+4SG4VltFQe7WhA4QXWajhCzIlGtwc+7su/luYjL7QJA==
+    SecretValue: 9gbMpMNhjWR7PHYgj9nCJAVP2fucUyyvD0RaYHGk3qtTrSgtqw==
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32

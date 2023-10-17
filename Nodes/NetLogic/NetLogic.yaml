@@ -19,7 +19,7 @@ Children:
   - Name: Password
     Type: BaseDataVariableType
     DataType: Password
-    SecretValue: C5FbJpVcdHYRKHYpqhhjPDHuw7RMYODPiLh7jA==
+    SecretValue: lar+tMf0Y13N4cLjNkeXydykflrSw+UeQ6zyKQ==
   - Name: ClientID
     Type: BaseDataVariableType
     DataType: String
