@@ -1,0 +1,15 @@
+Name: Packaging
+Type: FolderType
+Children:
+- Name: Packaging_Temperature
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Packaging_Pressure
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Packaging_Vibration
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0

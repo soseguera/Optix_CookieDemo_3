@@ -1,0 +1,41 @@
+Name: Trends_Properties
+Type: FolderType
+Children:
+- Name: Follow_Trend_Status
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Dynamic_Trend_Status
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Time_Window_Historical
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "00:05:00"
+- Name: Auto_Refresh_Time
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:1.0000000"
+- Name: Sampling_Period_Value
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:1.0000000"
+- Name: Start_Time_Trend
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: ChartTimeFrame
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../ChartTimeFrame"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

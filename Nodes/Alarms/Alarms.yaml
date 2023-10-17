@@ -1,0 +1,300 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: Mixer High Vibration
+  Id: g=361c8f46cd1f7f6d6759156e1706e9d5
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=29b64f9fe2f19388821b21decce1f01f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a1a3bb65271d4885afa6e3a1f1c1d524
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Mixer/Mixer_Vibration"
+      Children:
+      - Name: Mode
+        Id: g=c8404457ff75dafa9e612c154059793f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3f6abb0d804968895aece94f6e93a483
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=11d49dc17c56dd4cc211094ce00de324
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 100.0
+  - Name: HighLimit
+    Id: g=9ea7a3a4fbfe14a6414482e1a786d3d0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 95.0
+  - Name: Message
+    Id: g=315caf8bf2dac320679d5b7e88981536
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"High Power consumption presented"}
+- Name: Oven High Temperature
+  Id: g=7152e0603dbce4a2d74d63ded433bee0
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=999dfe119d2e3cab356e3bd2deb42e9f
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=830a3a8f6a5d9807d16468ac9c85351f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Mixer/Mixer_Temperature"
+      Children:
+      - Name: Mode
+        Id: g=7ad73c4d8fd03009489f71e4460c4dba
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2bc6f04f0c6a12eec0f3f341ed45c89c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=65c3f82e471d3d2a466565ebd8265e7c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 155.0
+  - Name: Message
+    Id: g=a7c15c23ac04b5f36562d76a77d16e68
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Oven reached high temperature"}
+  - Name: Severity
+    Id: g=34370e1c3a7750d9361a80ed50905b6e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 900
+  - Name: HighLimit
+    Id: g=a076d55040362d6481c4b15db5a73b04
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 140.0
+- Name: Packaging High Temperature
+  Id: g=a48df7f3fae31758a3cc397017fb6a18
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=e1901f13bf6a813a93cbd55806d1e1af
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d9bf68e928c35f5d27d0cb78e0b67674
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Packaging/Packaging_Temperature"
+      Children:
+      - Name: Mode
+        Id: g=4ac813e678dd20113da8ada0f7cf62a4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7ce526277324498f9352741beed38a9d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=4b85c78331e7d68a2ef66225e7d58fa0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 90.0
+  - Name: HighLimit
+    Id: g=c86be9309da4899f34b28431b98feb0b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 85.0
+- Name: Packaging High Vibration
+  Id: g=cf33f3f6b0a77c23ef26fed8ec2787fb
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=fa6cdd0f57f417954a776f3c4122fc7b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=c7b33c77a872a8afbe1f70aadea50e3e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Packaging/Packaging_Vibration"
+      Children:
+      - Name: Mode
+        Id: g=14ebad0ba9a838a87f3f58397e37990e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=97aeb7e7e85c70a007e863959e58edc7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=a75d4d38c094f787df7bc828ed6c6ca0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 50.0
+  - Name: HighLimit
+    Id: g=4d8e3a1485374b7f4c65f0a2ad94b3b5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 45.0
+- Name: Labeler High Temperature
+  Id: g=a9a4069ace79c64dc8125c3bf5736337
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=e0c43ecafb5ff017a15fb072bb0f5591
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=175b87bca7118379c50a977dab945eb1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Labeler/Labeler_Temperature"
+      Children:
+      - Name: Mode
+        Id: g=860d13ce0f6503b98d1ef64676ffc4f7
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=05d6f9ab3fc10b88f8b2d77424860da4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=daf449bb93604c2cc996e4deda171a87
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 65.0
+  - Name: Message
+    Id: g=b20734fb63682702ca3fedc613c96bef
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Low Voltage Presented"}
+  - Name: HighLimit
+    Id: g=ad47620ef5e2bd42be4de76add476f96
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 60.0
+- Name: Labeler High Vibration
+  Id: g=f7f30142c1ca8d34a9a63d43718567ca
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=4b0fa15076f626ed1dca2ce8e4892e24
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=fae3ccfad1e8d94ea328029cf0f9f39f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Labeler/Labeler_Vibration"
+      Children:
+      - Name: Mode
+        Id: g=3c66be4635b4e9b00997e117c9b67cf3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=9e0cf95ed40170a24d41e9a154a53c72
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=ccb2b1df216e1dfa086d410a074857b5
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 50.0
+  - Name: HighLimit
+    Id: g=3ae6dd9f6f3de4fa797ac3007d571379
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 45.0

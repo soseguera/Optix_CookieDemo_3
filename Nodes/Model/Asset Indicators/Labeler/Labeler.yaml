@@ -1,0 +1,15 @@
+Name: Labeler
+Type: FolderType
+Children:
+- Name: Labeler_Temperature
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Labeler_Pressure
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Labeler_Vibration
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0

@@ -1,0 +1,7 @@
+Name: Asset Indicators
+Type: FolderType
+Children:
+- File: Mixer/Mixer.yaml
+- File: Oven/Oven.yaml
+- File: Packaging/Packaging.yaml
+- File: Labeler/Labeler.yaml

@@ -1,0 +1,29 @@
+Name: Settings
+Type: FolderType
+Children:
+- Name: FolderPath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "%PROJECTDIR%\\CSV"
+- Name: PLC_URL
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Route"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PDF_Output_Path
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "C:\\Shared Files - Process Room\\FT Optix Files\\SandBox_Energy\\ProjectFiles\\PDF\\DataReport.pdf"
+- Name: Query_Max_Values
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"DataLogger1\" limit 20"
