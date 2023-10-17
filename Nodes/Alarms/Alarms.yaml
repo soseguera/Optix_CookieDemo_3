@@ -155,6 +155,11 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 85.0
+  - Name: Message
+    Id: g=fa06d74786e7a2090a67ac7f62ca401c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"High temperature in sealing system. Inspect"}
 - Name: Packaging High Vibration
   Id: g=cf33f3f6b0a77c23ef26fed8ec2787fb
   Type: ExclusiveLevelAlarmController
@@ -201,6 +206,11 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 45.0
+  - Name: Message
+    Id: g=9247177abd6425ccc18d5de1adcc040c
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"High vibration in motor bearing. Check oil"}
 - Name: Labeler High Temperature
   Id: g=a9a4069ace79c64dc8125c3bf5736337
   Type: ExclusiveLevelAlarmController
@@ -246,7 +256,7 @@ Children:
     Id: g=b20734fb63682702ca3fedc613c96bef
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Low Voltage Presented"}
+    Value: {"LocaleId":"en-US","Text":"High temperature in gun labeling system. Check misplacement"}
   - Name: HighLimit
     Id: g=ad47620ef5e2bd42be4de76add476f96
     Type: BaseDataVariableType

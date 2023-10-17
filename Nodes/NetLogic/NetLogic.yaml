@@ -19,7 +19,7 @@ Children:
   - Name: Password
     Type: BaseDataVariableType
     DataType: Password
-    SecretValue: +PzqJwBdlKzji9GEm/+ms/xiIqTdZBpJqT0IVA==
+    SecretValue: aXwbcojK+2erfl9JyybG4xDnPcaIPpAMdyLOWQ==
   - Name: ClientID
     Type: BaseDataVariableType
     DataType: String
@@ -79,16 +79,6 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: ""
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            Value: 2
-      - Name: Mode
-        Type: PropertyType
-        DataType: DynamicLinkMode
-        ReferenceType: HasComponent
-        Value: 2
       - Name: ns=2;Source1
         Type: BaseDataVariableType
         DataType: BaseDataType
@@ -98,11 +88,6 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: ""
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            Value: 2
       - Name: ns=2;Source2
         Type: BaseDataVariableType
         DataType: BaseDataType
@@ -112,11 +97,6 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: ""
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            Value: 2
   - Name: From
     Id: g=0b54f0dd76e5331662eef02aa0941b17
     Type: BaseDataVariableType
