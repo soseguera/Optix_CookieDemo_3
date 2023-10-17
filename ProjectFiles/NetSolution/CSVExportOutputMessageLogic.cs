@@ -1,33 +1,57 @@
 #region Using directives
-using System;
-using UAManagedCore;
-using OpcUa = UAManagedCore.OpcUa;
-using FTOptix.EventLogger;
-using FTOptix.DataLogger;
-using FTOptix.HMIProject;
-using FTOptix.NativeUI;
-using FTOptix.UI;
-using FTOptix.Alarm;
-using FTOptix.SQLiteStore;
-using FTOptix.Store;
-using FTOptix.CoreBase;
-using FTOptix.Retentivity;
-using FTOptix.RAEtherNetIP;
-using FTOptix.CommunicationDriver;
 using FTOptix.NetLogic;
-using FTOptix.Core;
-using FTOptix.ODBCStore;
+using UAManagedCore;
+using FTOptix.UI;
+using FTOptix.Report;
+using FTOptix.Modbus;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 public class CSVExportOutputMessageLogic : BaseNetLogic
 {
     public override void Start()
     {
-        // Insert code to be executed when the user-defined logic is started
+        messageVariable = Owner.GetVariable("Message");
+        task = new DelayedTask(() => {
+            if (messageVariable == null)
+            {
+                Log.Error("Unable to find variable Message in LoginFormOutputMessage label");
+                return;
+            }
+
+            messageVariable.Value = "";
+            taskStarted = false;
+        }, 5000, LogicObject);
     }
 
     public override void Stop()
     {
-        // Insert code to be executed when the user-defined logic is stopped
+        task?.Dispose();
     }
+    [ExportMethod]
+    public void SetOutputMessage(string message)
+    {
+        if (messageVariable == null)
+        {
+            Log.Error("Unable to find variable Message in LoginFormOutputMessage label");
+            return;
+        }
+
+        messageVariable.Value = message;
+
+        if (taskStarted)
+        {
+            task?.Cancel();
+            taskStarted = false;
+        }
+
+        task.Start();
+        taskStarted = true;
+    }
+
+    DelayedTask task;
+    bool taskStarted = false;
+    IUAVariable messageVariable;
+
 }

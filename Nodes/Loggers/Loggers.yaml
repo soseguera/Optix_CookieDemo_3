@@ -351,6 +351,20 @@ Children:
     Type: PropertyType
     DataType: Boolean
     Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Trends_Properties/Sampling_Period_Value"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
 - Name: AlarmsEventLogger1
   Id: g=d9b4eee1f3f53db4d2e5880332edd28f
   Type: EventLogger

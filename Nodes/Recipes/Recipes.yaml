@@ -82,17 +82,21 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: TableName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
   - Name: EditModel
-    Id: g=13f14072253b56ef008c261f11917928
+    Id: g=5959b71f9864e540838d7e5b65e06854
     Type: BaseObjectType
     Children:
     - Name: Flour
-      Id: g=c1a4fa5d095e7c73a3dcfbb2be0824de
+      Id: g=b357da700513611ad2d70b343b769509
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Water
-      Id: g=6823baae4ac779710c87d3ef848bee2a
+      Id: g=1846edfb801151700fab7ff2cb6ef7c7
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
@@ -101,16 +105,12 @@ Children:
       DataType: Float
       Value: 0.0
     - Name: Special Ingredient
-      Id: g=f6063f10ad9725da7c5506a138240d18
+      Id: g=fd7ae0e200aadb013937f8448359521b
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Mixing Time
-      Id: g=5690bfce705043d2c2493313fc129b53
+      Id: g=ec1b12ea1d65dcd557367d477b14686d
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
-  - Name: TableName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: ""
