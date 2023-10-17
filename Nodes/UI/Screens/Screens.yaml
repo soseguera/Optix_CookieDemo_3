@@ -7225,17 +7225,6 @@ Children:
         Value: 1
       - Name: CSVExportOutputMessageLogic
         Type: NetLogic
-        Children:
-        - Class: Method
-          Name: SetOutputMessage
-          Children:
-          - Name: ns=0;InputArguments
-            Type: BaseVariableType
-            DataType: Argument
-            ReferenceType: HasProperty
-            ValueRank: OneDimension
-            ArrayDimensions: [0]
-            Value: [{"TypeId":{"Id":296},"Body":{"Name":"message","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
       - Name: Message
         Type: BaseDataVariableType
         DataType: String

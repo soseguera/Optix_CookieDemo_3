@@ -9,6 +9,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: DataLogger1
+      Id: g=bbf03dcabb569442f1fdf829399119e1
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
