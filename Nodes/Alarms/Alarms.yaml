@@ -67,7 +67,7 @@ Children:
       Id: g=830a3a8f6a5d9807d16468ac9c85351f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/Asset Indicators/Mixer/Mixer_Temperature"
+      Value: "../../../Model/Asset Indicators/Oven/Oven_Temperature"
       Children:
       - Name: Mode
         Id: g=7ad73c4d8fd03009489f71e4460c4dba
@@ -98,7 +98,7 @@ Children:
     Id: g=a7c15c23ac04b5f36562d76a77d16e68
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Oven reached high temperature"}
+    Value: {"LocaleId":"en-US","Text":"Oven reached high temperature. Coorect Temperature Setpoint"}
   - Name: Severity
     Id: g=34370e1c3a7750d9361a80ed50905b6e
     Type: BaseDataVariableType
@@ -298,3 +298,8 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 45.0
+  - Name: Message
+    Id: g=5b6fe974771cd24495c270a52e5f2c65
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Labeler is vibrating too much. Check bearing and motor health"}

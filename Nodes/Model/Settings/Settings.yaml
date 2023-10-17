@@ -2,6 +2,7 @@ Name: Settings
 Type: FolderType
 Children:
 - Name: FolderPath
+  Id: g=751172bba464bd00a894da4c852e49dd
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
   Value: "%PROJECTDIR%\\CSV"
