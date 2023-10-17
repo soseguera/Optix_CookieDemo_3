@@ -46,3 +46,32 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: Mixer
+  Id: g=158bd825d9d8cd51b217a8dffccce39a
+  Type: BaseObjectType
+  Children:
+  - Name: Flour
+    Id: g=af7520cdd6f77e19cc0dcffba04bcce3
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Water
+    Id: g=2f91110af58288e0e22b7955abd5b57e
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Sugar
+    Id: g=e711e6ae90110c0632d3240b1d82442b
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Special Ingredient
+    Id: g=69c2febbd4ea39729052b7da9ef115ab
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Mixing Time
+    Id: g=4cc6bc5edf25ee3e557756dfabaa78da
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0

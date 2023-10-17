@@ -12,6 +12,7 @@ using FTOptix.Report;
 using FTOptix.Modbus;
 using FTOptix.Alarm;
 using FTOptix.EventLogger;
+using FTOptix.ODBCStore;
 
 public class FilesystemBrowserDatagridLogic : BaseNetLogic {
     public override void Start() {

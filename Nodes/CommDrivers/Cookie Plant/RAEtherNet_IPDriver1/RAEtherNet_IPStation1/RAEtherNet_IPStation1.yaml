@@ -5,7 +5,7 @@ Children:
 - Name: Route
   Type: BaseDataVariableType
   DataType: String
-  Value: "192.168.50.215\\Backplane\\1"
+  Value: "192.168.50.215\\backplane\\1"
 - Name: StationStatusVariables
   Type: PropertyGroup
   Children:
@@ -143,3 +143,7 @@ Children:
   Children:
   - File: DataTypes/DataTypes.yaml
   - File: VariableTypes/VariableTypes.yaml
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:0.0000000"

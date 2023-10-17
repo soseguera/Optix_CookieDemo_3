@@ -1,6 +1,33 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
 Children:
+- Name: PublicLogic
+  Type: NetLogic
+  Children:
+  - Name: Broker
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "localhost"
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1883
+  - Name: Username
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Password
+    Type: BaseDataVariableType
+    DataType: Password
+    SecretValue: XH/39j5mwk4tghmoI/zNN34kt4Is8OVvgqs6dA==
+  - Name: ClientID
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "PublisherClient"
+  - Name: Topic
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Test"
 - Name: DataLoggerExporter
   Id: g=78a987cc9e56e3be69760ae5e06948f8
   Type: NetLogic

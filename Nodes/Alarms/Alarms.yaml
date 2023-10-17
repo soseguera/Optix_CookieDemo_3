@@ -155,11 +155,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 85.0
-  - Name: Message
-    Id: g=1e40f0f90b5e33c9271ebb3335f2be3f
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Packaging Temperature reaching high limit - Check motor"}
 - Name: Packaging High Vibration
   Id: g=cf33f3f6b0a77c23ef26fed8ec2787fb
   Type: ExclusiveLevelAlarmController
@@ -206,11 +201,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 45.0
-  - Name: Message
-    Id: g=dda99d6510015a13adee6416b3ae1493
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Packing machine vibrating too much - check bearings"}
 - Name: Labeler High Temperature
   Id: g=a9a4069ace79c64dc8125c3bf5736337
   Type: ExclusiveLevelAlarmController
