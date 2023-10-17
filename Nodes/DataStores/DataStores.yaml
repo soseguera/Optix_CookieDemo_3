@@ -9,7 +9,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: DataLogger1
-      Id: g=00626cca3437fa306f8c779e88d15517
+      Id: g=bbf03dcabb569442f1fdf829399119e1
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -328,7 +328,7 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    SecretValue: myvQhXPMJVEPN9YRVpCmm837CN3fnExp0UlAIpSRwApucRIx8w==
+    SecretValue: iPa5X/6+4Z7ZidUyZ2aLgTfEWBti2N82LNdtllaFiRZYFkVfDA==
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32

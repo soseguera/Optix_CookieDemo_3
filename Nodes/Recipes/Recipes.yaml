@@ -87,16 +87,14 @@ Children:
     DataType: String
     Value: ""
   - Name: EditModel
-    Id: g=5959b71f9864e540838d7e5b65e06854
+    Id: g=13f14072253b56ef008c261f11917928
     Type: BaseObjectType
     Children:
     - Name: Flour
-      Id: g=b357da700513611ad2d70b343b769509
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Water
-      Id: g=1846edfb801151700fab7ff2cb6ef7c7
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
@@ -105,12 +103,10 @@ Children:
       DataType: Float
       Value: 0.0
     - Name: Special Ingredient
-      Id: g=fd7ae0e200aadb013937f8448359521b
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Mixing Time
-      Id: g=ec1b12ea1d65dcd557367d477b14686d
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
