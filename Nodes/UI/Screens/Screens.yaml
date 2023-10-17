@@ -4586,7 +4586,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
-                Value: {"IdType":2,"Id":"48b3fc5ea626a9f31dbb5aa6de69b4f3","Namespace":7}
+                Value: {"IdType":2,"Id":"441ab14b1c8ec78193a52607e39dcace","Namespace":7}
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
@@ -4743,7 +4743,7 @@ Children:
         ModellingRule: Optional
         Value: 555.0
 - Name: ExportCSVFile
-  Id: g=441ab14b1c8ec78193a52607e39dcace
+  Id: g=723f2c9ab4419b25ff6630d2812d6a1e
   Supertype: Dialog
   ReferenceType: HasComponent
   Children:
@@ -4753,12 +4753,10 @@ Children:
   - Name: Width
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 350.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 275.0
   - Name: Background
     Type: Rectangle
@@ -4797,10 +4795,36 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#000000"
+      Children:
+      - Name: DynamicColorBorders1
+        Type: DynamicColorBorders
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{NodeId:ns=7;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
       Value: "#ffffff"
+      Children:
+      - Name: DynamicColorBackgroundPopup1
+        Type: DynamicColorBackgroundPopup
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{NodeId:ns=7;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -4821,17 +4845,6 @@ Children:
         Value: 1
       - Name: CSVExportOutputMessageLogic
         Type: NetLogic
-        Children:
-        - Class: Method
-          Name: SetOutputMessage
-          Children:
-          - Name: ns=0;InputArguments
-            Type: BaseVariableType
-            DataType: Argument
-            ReferenceType: HasProperty
-            ValueRank: OneDimension
-            ArrayDimensions: [0]
-            Value: [{"TypeId":{"Id":296},"Body":{"Name":"message","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
       - Name: Message
         Type: BaseDataVariableType
         DataType: String
@@ -4896,7 +4909,7 @@ Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"2effe08e2b4af3b6e8af738ffedb1b37","Namespace":7}
+        Value: {"IdType":2,"Id":"f16747429711e086a968570c555807a5","Namespace":7}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -5053,7 +5066,7 @@ Children:
           Type: PropertyType
           DataType: NodeId
           Value: {"Id":16,"Namespace":3}
-        - Name: MethodsToCall
+        - Name: ns=2;MethodsToCall
           Type: BaseObjectType
           Children:
           - Name: MethodContainer1
@@ -5152,7 +5165,7 @@ Children:
           Type: PropertyType
           DataType: NodeId
           Value: {"Id":16,"Namespace":3}
-        - Name: MethodsToCall
+        - Name: ns=2;MethodsToCall
           Type: BaseObjectType
           Children:
           - Name: MethodContainer1
@@ -5161,7 +5174,7 @@ Children:
             - Name: ns=2;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"ea5d9b7c6bf22b6898b10dd2819af8ac","Namespace":7}
+              Value: {"IdType":2,"Id":"78a987cc9e56e3be69760ae5e06948f8","Namespace":7}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -5275,7 +5288,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=2134c19e-86e8-d9ae-c552-fcedc47760d1}"
+          Value: "{NodeId:ns=7;g=83328a97-cf6a-7451-b132-a905781dda00}"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -5318,7 +5331,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=5a65777f-03e3-9c41-a654-39b1a57c5158}"
+          Value: "{NodeId:ns=7;g=0b54f0dd-76e5-3316-62ee-f02aa0941b17}"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -5407,7 +5420,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=cd7f954f-f9c9-c554-2c3a-b52fe3ff2840}"
+          Value: "{NodeId:ns=7;g=3ae8cb99-590b-c57f-1658-01f23f6a7ed2}"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -5475,30 +5488,25 @@ Children:
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
-    ModellingRule: Optional
     Value: 1
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
-    ModellingRule: Optional
     Value: 1
   - Name: RightMargin
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 141.0
   - Name: TopMargin
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 200.0
   - Name: BottomMargin
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 118.0
 - Name: BrowseFile
-  Id: g=2effe08e2b4af3b6e8af738ffedb1b37
+  Id: g=f16747429711e086a968570c555807a5
   Supertype: Popup
   ReferenceType: HasComponent
   Children:
@@ -5508,12 +5516,10 @@ Children:
   - Name: Width
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 380.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 250.0
   - Name: Background
     Type: Rectangle
@@ -5552,10 +5558,36 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#000000"
+      Children:
+      - Name: DynamicColorBorders1
+        Type: DynamicColorBorders
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{NodeId:ns=7;g=ecf55de0-0c7b-0534-84fd-c6d9c783a967}@Pointer"
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
       Value: "#ffffff"
+      Children:
+      - Name: DynamicColorBackgroundPopup1
+        Type: DynamicColorBackgroundPopup
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Optix_CookieDemo_3/UI/NativePresentationEngine/StyleSheet"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -5737,7 +5769,7 @@ Children:
           - Name: ItemKind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":2,"Id":"e6468705b0e338094ea431f36d411d7f","Namespace":7}
+            Value: {"IdType":2,"Id":"825822c59a441d454395f7432d13f837","Namespace":7}
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
@@ -5750,7 +5782,7 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: ""
-        - Name: Columns
+        - Name: ns=3;Columns
           Type: BaseObjectType
           Children:
           - Name: DataGridColumn1
@@ -5776,7 +5808,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodePath
               Value: ""
-            - Name: DataItemTemplate
+            - Name: ns=3;DataItemTemplate
               Type: DataGridImageItemTemplate
               Children:
               - Name: Path
@@ -5852,7 +5884,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodePath
               Value: ""
-            - Name: DataItemTemplate
+            - Name: ns=3;DataItemTemplate
               Type: DataGridLabelItemTemplate
               Children:
               - Name: Text
@@ -5887,7 +5919,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodePath
               Value: ""
-            - Name: DataItemTemplate
+            - Name: ns=3;DataItemTemplate
               Type: DataGridLabelItemTemplate
               Children:
               - Name: Text
@@ -5921,7 +5953,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":2,"Id":"e6468705b0e338094ea431f36d411d7f","Namespace":7}
+            Value: {"IdType":2,"Id":"825822c59a441d454395f7432d13f837","Namespace":7}
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5940,7 +5972,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":2,"Id":"e6468705b0e338094ea431f36d411d7f","Namespace":7}
+            Value: {"IdType":2,"Id":"825822c59a441d454395f7432d13f837","Namespace":7}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5989,7 +6021,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=4f1b9f29-f94e-1909-7539-6444e5b1090b}"
+          Value: "{NodeId:ns=7;g=751172bb-a464-bd00-a894-da4c852e49dd}"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -6004,7 +6036,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=5be75891-dd8e-d97f-bb00-b00f4b6631b2}"
+          Value: "{NodeId:ns=7;g=3ae8cb99-590b-c57f-1658-01f23f6a7ed2}"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -6083,10 +6115,216 @@ Children:
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
-    ModellingRule: Optional
     Value: 1
   - Name: RightMargin
     Type: BaseVariableType
     DataType: Size
-    ModellingRule: Optional
     Value: 10.0
+- Name: DynamicColorBorders
+  Id: g=de047f17a21fc4ce259f0617d9a12cca
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=bdebab2a-90de-200a-29d5-7d05bcea2527}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=7854d4b9-49ff-d386-c4b0-ad4b19895c94}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=b4cdef08-11db-374c-f3d4-bda0a7ce1201}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Pair3
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=193baf7b-34b0-c6bc-b500-ae54a1b7355e}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Pair4
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=93c5c85e-5cd2-6035-a533-08d892fdde33}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+- Name: DynamicColorBackgroundPopup
+  Id: g=d0715432e0d29ec69027c26805fae207
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"e68ba9a9ea4d67c3cb0b64e10689f103","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#fffffff0"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"6c52f2ae149bc0b0c53ed8546025a861","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#121212f0"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"51c2bdda411c0380ea68f3a5524b146c","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#fffffff0"
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"58e0175e0498c491977785c13464e955","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#151e27f0"
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":2,"Id":"577f528d7b40bd0b7dd421e42c951fba","Namespace":7}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#fffffff0"
+- Name: FileEntry
+  Id: g=825822c59a441d454395f7432d13f837
+  Supertype: BaseObjectType
+  Children:
+  - Name: FileName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Size
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: IsDirectory
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
