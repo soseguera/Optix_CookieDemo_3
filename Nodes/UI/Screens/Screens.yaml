@@ -385,7 +385,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label1
         Type: Label
         Children:
@@ -492,7 +492,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label2
         Type: Label
         Children:
@@ -639,7 +639,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label3
         Type: Label
         Children:
@@ -1203,7 +1203,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label1
         Type: Label
         Children:
@@ -1372,7 +1372,7 @@ Children:
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ff0000"
+              Value: "#808080"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
