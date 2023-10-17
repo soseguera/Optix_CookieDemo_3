@@ -4164,7 +4164,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 600.0
+        Value: 350.0
       - Name: Item
         Type: Alias
         DataType: NodeId
