@@ -546,7 +546,7 @@ Children:
             - Name: From
               Type: BaseDataVariableType
               DataType: Float
-              Value: 85.0
+              Value: 90.0
             - Name: To
               Type: BaseDataVariableType
               DataType: Float
@@ -555,6 +555,36 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ff0000"
+          - Name: WarningZone2
+            Type: WarningZone
+            Children:
+            - Name: From
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 75.0
+            - Name: To
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 90.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffa500"
+          - Name: WarningZone3
+            Type: WarningZone
+            Children:
+            - Name: From
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 55.0
+            - Name: To
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 75.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffff00"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -628,6 +658,16 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 125.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#00000000"
     - Name: Container_Oven
       Type: Rectangle
       Children:
@@ -677,11 +717,11 @@ Children:
         - Name: MinValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 0.0
+          Value: 120.0
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 100.0
+          Value: 170.0
         - Name: WarningZones
           Type: BaseObjectType
           Children:
@@ -691,15 +731,30 @@ Children:
             - Name: From
               Type: BaseDataVariableType
               DataType: Float
-              Value: 75.0
+              Value: 160.0
             - Name: To
               Type: BaseDataVariableType
               DataType: Float
-              Value: 100.0
+              Value: 170.0
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ff0000"
+          - Name: WarningZone2
+            Type: WarningZone
+            Children:
+            - Name: From
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 140.0
+            - Name: To
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 160.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffff00"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -755,6 +810,11 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#0000ff"
+        - Name: ColorizationMode
+          Type: BaseDataVariableType
+          DataType: ColorizationModeEnum
+          ModellingRule: Optional
+          Value: 1
       - Name: Label1
         Type: Label
         Children:
@@ -997,6 +1057,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 125.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#00000000"
     - Name: Container_Packaging
       Type: Rectangle
       Children:
@@ -1046,11 +1111,11 @@ Children:
         - Name: MinValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 60.0
+          Value: 0.0
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 180.0
+          Value: 100.0
         - Name: WarningZones
           Type: BaseObjectType
           Children:
@@ -1060,15 +1125,30 @@ Children:
             - Name: From
               Type: BaseDataVariableType
               DataType: Float
-              Value: 165.0
+              Value: 80.0
             - Name: To
               Type: BaseDataVariableType
               DataType: Float
-              Value: 180.0
+              Value: 100.0
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ff0000"
+          - Name: WarningZone2
+            Type: WarningZone
+            Children:
+            - Name: From
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 60.0
+            - Name: To
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 80.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffff00"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1167,7 +1247,7 @@ Children:
             - Name: From
               Type: BaseDataVariableType
               DataType: Float
-              Value: 25.0
+              Value: 20.0
             - Name: To
               Type: BaseDataVariableType
               DataType: Float
@@ -1366,6 +1446,16 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 125.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#00000000"
     - Name: Container_Labeler
       Type: Rectangle
       Children:
@@ -1438,6 +1528,21 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               Value: "#ff0000"
+          - Name: WarningZone2
+            Type: WarningZone
+            Children:
+            - Name: From
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 50.0
+            - Name: To
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 85.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffff00"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1639,11 +1744,11 @@ Children:
         - Name: MinValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 60.0
+          Value: 0.0
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 100.0
+          Value: 50.0
         - Name: WarningZones
           Type: BaseObjectType
           Children:
@@ -1653,11 +1758,11 @@ Children:
             - Name: From
               Type: BaseDataVariableType
               DataType: Float
-              Value: 85.0
+              Value: 40.0
             - Name: To
               Type: BaseDataVariableType
               DataType: Float
-              Value: 100.0
+              Value: 50.0
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
@@ -1735,6 +1840,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 125.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#00000000"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3648,41 +3758,6 @@ Children:
       - Name: Columns
         Type: BaseObjectType
         Children:
-        - Name: Timestamp
-          Type: DataGridColumn
-          Children:
-          - Name: Title
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Timestamp"}
-          - Name: Width
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -1.0
-          - Name: HeaderAlignment
-            Type: BaseDataVariableType
-            DataType: TextHorizontalAlignment
-            Value: 0
-          - Name: ContentAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            Value: 0
-          - Name: OrderBy
-            Type: BaseDataVariableType
-            DataType: NodePath
-            Value: "{Item}/Timestamp"
-          - Name: DataItemTemplate
-            Type: DataGridLabelItemTemplate
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}/Timestamp"
         - Name: LocalTimestamp
           Type: DataGridColumn
           Children:
@@ -4198,3 +4273,350 @@ Children:
         DataType: SortOrderEnum
         ModellingRule: Optional
         Value: 1
+    - Name: Button1
+      Type: Button
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Refresh"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 490.0
+      - Name: MouseClickEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":16,"Namespace":3}
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ns=2;ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"Id":58}
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DataGrid1@NodeId"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: ns=2;Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Refresh"
+        - Name: EventArguments
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+            Value: ""
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+            Value: ""
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+            Value: "1601-01-01T00:00:00.0000000"
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+            Value: "1601-01-01T00:00:00.0000000"
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
+            Value: 0
+    - Name: Auto_Refresh_Time_Value
+      Type: TextBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=50a9ed72-acc1-ad2e-d493-9dd8362d29fb}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 525.0
+    - Name: Label1
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Insert Auto Refresh Time"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 55.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 555.0
+    - Name: ExportCSVFile
+      Type: Button
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":7,"TextId":"Export CSV File"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 120.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: MouseclickEventhandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":16,"Namespace":3}
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ns=2;ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Value: {"Id":121,"Namespace":3}
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"Id":58}
+            - Name: ns=2;Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "OpenDialog"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: Dialog
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
+                Value: {"IdType":2,"Id":"48b3fc5ea626a9f31dbb5aa6de69b4f3","Namespace":7}
+              - Name: AliasNode
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":3,"TextId":"OpenDialogAliasNodeDescription"}
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: ParentItem
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":3,"TextId":"OpenDialogItemDescription"}
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../..@NodeId"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+            - Name: OutputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: DialogNodeId
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogInstanceIdDescription"}
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: EventArguments
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+            Value: ""
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+            Value: ""
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+            Value: "1601-01-01T00:00:00.0000000"
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+            Value: "1601-01-01T00:00:00.0000000"
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
+            Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 890.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 490.0
+    - Name: TextBox2
+      Type: TextBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=0b374861-076a-088b-6628-b9fd335d33bb}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 219.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 527.0
+      - Name: ContentType
+        Type: BaseVariableType
+        DataType: InputTypeEnum
+        ModellingRule: Optional
+        Value: 0
+    - Name: Label2
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Sampling Period"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 219.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 555.0
