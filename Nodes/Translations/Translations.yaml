@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [14,2],
+    "Dimensions": [23,2],
     "Body": [
      "","en-US",
      "Acknowledge","Acknowledge",
@@ -24,6 +24,15 @@ Children:
      "Acked","Acked",
      "Confirmed","Confirmed",
      "Severity","Severity",
-     "Export CSV File","Export CSV File"
+     "Export CSV File","Export CSV File",
+     "Close","Close",
+     "Export","Export",
+     "To","To",
+     "ProjectFolder","Project folder",
+     "From","From",
+     "ApplicationFolder","Application folder",
+     "Filename","File name",
+     "CSV File Path","CSV File Path",
+     "Size","Size"
     ]
    }
