@@ -78,7 +78,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: ""
+          Value: "../../../Table@BrowseName"
       - Name: ns=2;Source1
         Type: BaseDataVariableType
         DataType: BaseDataType
@@ -87,7 +87,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: ""
+          Value: "../../../From"
       - Name: ns=2;Source2
         Type: BaseDataVariableType
         DataType: BaseDataType
@@ -96,7 +96,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: ""
+          Value: "../../../To"
   - Name: From
     Id: g=0b54f0dd76e5331662eef02aa0941b17
     Type: BaseDataVariableType
