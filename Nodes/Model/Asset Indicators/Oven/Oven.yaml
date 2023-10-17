@@ -46,3 +46,8 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: Oven_Temperature_Override
+  Id: g=1b020570b0a7462e1d2bba532300d376
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

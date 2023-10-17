@@ -75,3 +75,8 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
+- Name: Mixer_Vibration_Override
+  Id: g=6f325a5e9f1d9f20456e3dfc126d8ee4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
