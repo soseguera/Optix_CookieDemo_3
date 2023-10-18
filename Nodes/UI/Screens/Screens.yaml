@@ -640,6 +640,16 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#808080"
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
       - Name: Label3
         Type: Label
         Children:
@@ -721,7 +731,7 @@ Children:
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Float
-          Value: 170.0
+          Value: 200.0
         - Name: WarningZones
           Type: BaseObjectType
           Children:
@@ -731,11 +741,11 @@ Children:
             - Name: From
               Type: BaseDataVariableType
               DataType: Float
-              Value: 160.0
+              Value: 180.0
             - Name: To
               Type: BaseDataVariableType
               DataType: Float
-              Value: 170.0
+              Value: 200.0
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
@@ -746,11 +756,11 @@ Children:
             - Name: From
               Type: BaseDataVariableType
               DataType: Float
-              Value: 140.0
+              Value: 160.0
             - Name: To
               Type: BaseDataVariableType
               DataType: Float
-              Value: 160.0
+              Value: 180.0
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
@@ -809,7 +819,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
         - Name: ColorizationMode
           Type: BaseDataVariableType
           DataType: ColorizationModeEnum
@@ -921,7 +931,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label2
         Type: Label
         Children:
@@ -1038,7 +1048,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label3
         Type: Label
         Children:
@@ -1310,7 +1320,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label2
         Type: Label
         Children:
@@ -1372,7 +1382,7 @@ Children:
             - Name: Color
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#808080"
+              Value: "#ff0000"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1427,7 +1437,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label3
         Type: Label
         Children:
@@ -1597,7 +1607,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label1
         Type: Label
         Children:
@@ -1704,7 +1714,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label2
         Type: Label
         Children:
@@ -1821,7 +1831,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#0000ff"
+          Value: "#808080"
       - Name: Label3
         Type: Label
         Children:
@@ -8071,7 +8081,7 @@ Children:
       - Name: MaxValue
         Type: BaseDataVariableType
         DataType: Float
-        Value: 50.0
+        Value: 40.0
       - Name: WarningZones
         Type: BaseObjectType
       - Name: Width

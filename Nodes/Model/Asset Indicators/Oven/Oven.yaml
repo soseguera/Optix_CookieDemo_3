@@ -49,5 +49,15 @@ Children:
 - Name: Oven_Temperature_Override
   Id: g=1b020570b0a7462e1d2bba532300d376
   Type: BaseDataVariableType
-  DataType: Int32
-  Value: 0
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Oven_Temperature_Override"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

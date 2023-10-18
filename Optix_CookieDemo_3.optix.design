@@ -31,5 +31,9 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 1.1
  Nodes:
  - File: DesignTimeNodes/CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml

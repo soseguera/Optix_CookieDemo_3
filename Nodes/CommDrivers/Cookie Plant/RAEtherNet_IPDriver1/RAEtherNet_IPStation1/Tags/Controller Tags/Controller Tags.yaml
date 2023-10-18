@@ -118,3 +118,21 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Labeler_Vibration"
+- Name: Oven_Temperature_Override
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Oven_Temperature_Override"
+- Name: Mixer_Vibration_Override
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Mixer_Vibration_Override"

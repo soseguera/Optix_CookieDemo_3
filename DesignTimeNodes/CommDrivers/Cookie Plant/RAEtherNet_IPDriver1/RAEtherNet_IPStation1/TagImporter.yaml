@@ -17,3 +17,7 @@ Children:
   Type: BaseDataVariableType
   DataType: FetchModes
   Value: 1
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: ""

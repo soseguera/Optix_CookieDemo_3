@@ -93,7 +93,7 @@ Children:
     Id: g=65c3f82e471d3d2a466565ebd8265e7c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 155.0
+    Value: 170.0
   - Name: Message
     Id: g=a7c15c23ac04b5f36562d76a77d16e68
     Type: BaseDataVariableType
@@ -108,7 +108,7 @@ Children:
     Id: g=a076d55040362d6481c4b15db5a73b04
     Type: BaseDataVariableType
     DataType: Double
-    Value: 140.0
+    Value: 165.0
 - Name: Packaging High Temperature
   Id: g=a48df7f3fae31758a3cc397017fb6a18
   Type: ExclusiveLevelAlarmController
