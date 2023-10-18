@@ -511,6 +511,24 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 60.0
+      - Name: Label3
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Vibration"}
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 125.0
       - Name: Temperature2
         Type: LinearGauge
         Children:
@@ -624,7 +642,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
-          Value: false
+          Value: true
         - Name: LabelVisible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -650,24 +668,6 @@ Children:
           DataType: Boolean
           ModellingRule: Optional
           Value: true
-      - Name: Label3
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"Vibration"}
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 125.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -706,125 +706,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 40.0
-      - Name: Temperature
-        Type: LinearGauge
-        Children:
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{NodeId:ns=7;g=8d306268-8c29-f05a-7318-12ee38d0991b}"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 120.0
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 200.0
-        - Name: WarningZones
-          Type: BaseObjectType
-          Children:
-          - Name: WarningZone1
-            Type: WarningZone
-            Children:
-            - Name: From
-              Type: BaseDataVariableType
-              DataType: Float
-              Value: 180.0
-            - Name: To
-              Type: BaseDataVariableType
-              DataType: Float
-              Value: 200.0
-            - Name: Color
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#ff0000"
-          - Name: WarningZone2
-            Type: WarningZone
-            Children:
-            - Name: From
-              Type: BaseDataVariableType
-              DataType: Float
-              Value: 160.0
-            - Name: To
-              Type: BaseDataVariableType
-              DataType: Float
-              Value: 180.0
-            - Name: Color
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#ffff00"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 150.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 25.0
-        - Name: Editable
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-          Value: false
-        - Name: MajorTickCount
-          Type: BaseDataVariableType
-          DataType: Float
-          ModellingRule: Optional
-          Value: 5.0
-        - Name: MinorTickCount
-          Type: BaseDataVariableType
-          DataType: Float
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: Tooltip
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-          Value: false
-        - Name: LabelVisible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-          Value: false
-        - Name: ScalePosition
-          Type: BaseDataVariableType
-          DataType: PositionEnum
-          ModellingRule: Optional
-          Value: 0
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#808080"
-        - Name: ColorizationMode
-          Type: BaseDataVariableType
-          DataType: ColorizationModeEnum
-          ModellingRule: Optional
-          Value: 1
       - Name: Label1
         Type: Label
         Children:
@@ -1067,6 +948,125 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 125.0
+      - Name: Temperature
+        Type: LinearGauge
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{NodeId:ns=7;g=8d306268-8c29-f05a-7318-12ee38d0991b}"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 120.0
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 200.0
+        - Name: WarningZones
+          Type: BaseObjectType
+          Children:
+          - Name: WarningZone1
+            Type: WarningZone
+            Children:
+            - Name: From
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 180.0
+            - Name: To
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 200.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+          - Name: WarningZone2
+            Type: WarningZone
+            Children:
+            - Name: From
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 160.0
+            - Name: To
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 180.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffff00"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 150.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 25.0
+        - Name: Editable
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: MajorTickCount
+          Type: BaseDataVariableType
+          DataType: Float
+          ModellingRule: Optional
+          Value: 5.0
+        - Name: MinorTickCount
+          Type: BaseDataVariableType
+          DataType: Float
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Tooltip
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: LabelVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: ScalePosition
+          Type: BaseDataVariableType
+          DataType: PositionEnum
+          ModellingRule: Optional
+          Value: 0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#808080"
+        - Name: ColorizationMode
+          Type: BaseDataVariableType
+          DataType: ColorizationModeEnum
+          ModellingRule: Optional
+          Value: 1
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -7593,7 +7593,7 @@ Children:
             DataType: Color
             ModellingRule: Optional
             Value: "#008000"
-        - Name: Packaging Temperature
+        - Name: Mixer Vibration
           Type: TrendPen
           DataType: BaseDataType
           Children:
@@ -7608,7 +7608,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=86d50ed2-6045-8708-d331-27425feeee00}"
+            Value: "{NodeId:ns=7;g=698c1031-be9e-e580-15b1-7e36a227f4b2}"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7679,7 +7679,7 @@ Children:
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Size
-          Value: 180.0
+          Value: 210.0
         - Name: AutoScale
           Type: BaseDataVariableType
           DataType: Boolean
@@ -7696,12 +7696,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 880.0
+        Value: 1060.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 380.0
+        Value: 395.0
       - Name: ReferenceTimeZone
         Type: BaseDataVariableType
         DataType: ReferenceTimeZone
