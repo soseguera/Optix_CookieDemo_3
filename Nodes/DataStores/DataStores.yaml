@@ -8,7 +8,7 @@ Children:
   - Name: Tables
     Type: BaseObjectType
     Children:
-    - Name: DataLogger1
+    - Name: Data2MQTT
       Id: g=bbf03dcabb569442f1fdf829399119e1
       Type: SQLiteStoreTable
       Children:
@@ -83,6 +83,38 @@ Children:
           Type: StoreColumn
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: Mixer_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Mixer_Asset_ID
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Oven_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Oven_Asset_ID
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Packaging_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Packaging_Asset_ID
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Labeler_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Labeler_Asset_ID
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
     - Name: AlarmsEventLogger1
       Type: SQLiteStoreTable
       Children:

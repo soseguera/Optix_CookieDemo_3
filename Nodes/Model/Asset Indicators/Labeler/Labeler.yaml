@@ -46,3 +46,26 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: Labeler_Pressure_Override
+  Id: g=7753fd4be26bbb7cff1b41ecd2e20bba
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Pressure_Override"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: High_Limit_Condition
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Asset_ID
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

@@ -7,27 +7,36 @@ Children:
   - Name: Broker
     Type: BaseDataVariableType
     DataType: String
-    Value: "localhost"
+    Value: "e52163660ddf453cb4355b09a11a0678.s1.eu.hivemq.cloud"
   - Name: Port
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 1883
+    Value: 8883
   - Name: Username
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
+    Value: "hivemq.webclient.1693586254057"
   - Name: Password
     Type: BaseDataVariableType
     DataType: Password
-    SecretValue: lar+tMf0Y13N4cLjNkeXydykflrSw+UeQ6zyKQ==
+    SecretValue: 0QbsHY0kLAZxubtpjHBCFeTMsUSicUAP4s/oCvoCzGsvpjzW9RYQctG1eQ6MHSMZ
   - Name: ClientID
     Type: BaseDataVariableType
     DataType: String
-    Value: "PublisherClient"
+    Value: "FTOptix"
   - Name: Topic
     Type: BaseDataVariableType
     DataType: String
     Value: "Test"
+  - Name: DataLogger
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"293d18d2c0ebdf7414940401b0801aae","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: DataLoggerExporter
   Id: g=78a987cc9e56e3be69760ae5e06948f8
   Type: NetLogic

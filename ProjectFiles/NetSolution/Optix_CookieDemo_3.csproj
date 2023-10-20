@@ -15,5 +15,9 @@
   <PropertyGroup>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="M2Mqtt" Version="4.3.0"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+  </ItemGroup>
   <Import Project="Optix_CookieDemo_3.references"/>
 </Project>

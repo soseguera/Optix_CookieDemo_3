@@ -61,3 +61,11 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: High_Limit_Condition
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Asset_ID
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
