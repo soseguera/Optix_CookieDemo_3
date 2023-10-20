@@ -131,5 +131,13 @@ Project:
    Uri: 'urn:FTOptix:ODBCStore:Net'
    Module: FTOptix.ODBCStore.Net
    Version: 1.0
+  33:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.1
+  34:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.1
  Nodes:
  - File: Nodes/Optix_CookieDemo_3.yaml

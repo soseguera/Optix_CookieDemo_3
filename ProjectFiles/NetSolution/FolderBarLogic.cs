@@ -16,6 +16,7 @@ using FTOptix.Modbus;
 using FTOptix.Alarm;
 using FTOptix.EventLogger;
 using FTOptix.ODBCStore;
+using FTOptix.WebUI;
 
 public class FolderBarLogic : BaseNetLogic {
     public override void Start() {

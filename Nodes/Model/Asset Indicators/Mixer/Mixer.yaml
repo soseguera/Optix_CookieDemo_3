@@ -91,10 +91,11 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Asset_ID
+  Id: g=e1903dd25ce2a5ea5bb543aa365f0c99
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 29832774
 - Name: High_Limit_Condition
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 75.0

@@ -13,6 +13,7 @@ using FTOptix.CoreBase;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.ODBCStore;
+using FTOptix.WebUI;
 #endregion
 
 public class RecipesEditorComboBoxLogic1 : BaseNetLogic

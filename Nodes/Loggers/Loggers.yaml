@@ -370,7 +370,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Mixer/Asset_ID"
+        Value: "../../../../Model/Asset Indicators/Mixer/High_Limit_Condition"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -397,7 +397,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Mixer/High_Limit_Condition"
+        Value: "../../../../Model/Asset Indicators/Mixer/Asset_ID"
         Children:
         - Name: Mode
           Type: BaseVariableType

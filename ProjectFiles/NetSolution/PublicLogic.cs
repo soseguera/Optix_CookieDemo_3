@@ -27,6 +27,7 @@ using FTOptix.DataLogger;
 using FTOptix.Recipe;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using FTOptix.WebUI;
 
 public class PublicLogic : BaseNetLogic
 {
@@ -63,7 +64,7 @@ public class PublicLogic : BaseNetLogic
 
     private void PublishClientMqttMsgPublished(object sender, MqttMsgPublishedEventArgs e)
     {
-        Log.Info("Message " + e.MessageId + " - published = " + e.IsPublished);
+        //Log.Info("Message " + e.MessageId + " - published = " + e.IsPublished);
     }
 
     public void PublishMessage()

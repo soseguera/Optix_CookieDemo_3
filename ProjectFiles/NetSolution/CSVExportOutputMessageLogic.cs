@@ -6,6 +6,7 @@ using FTOptix.Report;
 using FTOptix.Modbus;
 using FTOptix.Alarm;
 using FTOptix.EventLogger;
+using FTOptix.WebUI;
 #endregion
 
 public class CSVExportOutputMessageLogic : BaseNetLogic

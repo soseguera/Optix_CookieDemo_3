@@ -48,11 +48,28 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 95.0
+    Children:
+    - Name: DynamicLink
+      Id: g=bc0a41d6129b4ad79436d19c9ea57f66
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Mixer/High_Limit_Condition"
+      Children:
+      - Name: Mode
+        Id: g=5c828bdf45efd9e10c118280151f80b6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: Message
     Id: g=315caf8bf2dac320679d5b7e88981536
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"High vibration in main motor presented. Check bearings"}
+    Value: {"LocaleId":"en-US","Text":"High vibration in main motor presented. Work Order Scheduled"}
+  - Name: Severity
+    Id: g=031d54eec23d44e035c2f9b11e1f5652
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 100
 - Name: Oven High Temperature
   Id: g=7152e0603dbce4a2d74d63ded433bee0
   Type: ExclusiveLevelAlarmController
@@ -93,12 +110,12 @@ Children:
     Id: g=65c3f82e471d3d2a466565ebd8265e7c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 170.0
+    Value: 200.0
   - Name: Message
     Id: g=a7c15c23ac04b5f36562d76a77d16e68
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Oven reached high temperature. Coorect Temperature Setpoint"}
+    Value: {"LocaleId":"en-US","Text":"Oven reached high temperature. Work Order Scheduled"}
   - Name: Severity
     Id: g=34370e1c3a7750d9361a80ed50905b6e
     Type: BaseDataVariableType
@@ -109,6 +126,18 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     Value: 165.0
+    Children:
+    - Name: DynamicLink
+      Id: g=051524e331630042a39ceb545657433a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Oven/High_Limit_Condition"
+      Children:
+      - Name: Mode
+        Id: g=45741f9f86315c2a9a266c2918442d36
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
 - Name: Packaging High Temperature
   Id: g=a48df7f3fae31758a3cc397017fb6a18
   Type: ExclusiveLevelAlarmController
@@ -200,17 +229,29 @@ Children:
     Id: g=a75d4d38c094f787df7bc828ed6c6ca0
     Type: BaseDataVariableType
     DataType: Double
-    Value: 50.0
+    Value: 100.0
   - Name: HighLimit
     Id: g=4d8e3a1485374b7f4c65f0a2ad94b3b5
     Type: BaseDataVariableType
     DataType: Double
     Value: 45.0
+    Children:
+    - Name: DynamicLink
+      Id: g=d55cc074e25b286dc1531889c43ff090
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Packaging/High_Limit_Condition"
+      Children:
+      - Name: Mode
+        Id: g=570560844520381c65fa79e25833f57b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: Message
     Id: g=9247177abd6425ccc18d5de1adcc040c
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"High vibration in motor bearing. Check oil"}
+    Value: {"LocaleId":"en-US","Text":"High vibration in motor bearing. Work Order Scheduled"}
 - Name: Labeler High Temperature
   Id: g=a9a4069ace79c64dc8125c3bf5736337
   Type: ExclusiveLevelAlarmController
@@ -251,7 +292,7 @@ Children:
     Id: g=daf449bb93604c2cc996e4deda171a87
     Type: BaseDataVariableType
     DataType: Double
-    Value: 65.0
+    Value: 100.0
   - Name: Message
     Id: g=b20734fb63682702ca3fedc613c96bef
     Type: BaseDataVariableType
@@ -261,8 +302,8 @@ Children:
     Id: g=ad47620ef5e2bd42be4de76add476f96
     Type: BaseDataVariableType
     DataType: Double
-    Value: 60.0
-- Name: Labeler High Vibration
+    Value: 80.0
+- Name: Labeler High Pressure
   Id: g=f7f30142c1ca8d34a9a63d43718567ca
   Type: ExclusiveLevelAlarmController
   Children:
@@ -276,7 +317,7 @@ Children:
       Id: g=fae3ccfad1e8d94ea328029cf0f9f39f
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../Model/Asset Indicators/Labeler/Labeler_Vibration"
+      Value: "../../../Model/Asset Indicators/Labeler/Labeler_Pressure"
       Children:
       - Name: Mode
         Id: g=3c66be4635b4e9b00997e117c9b67cf3
@@ -302,14 +343,31 @@ Children:
     Id: g=ccb2b1df216e1dfa086d410a074857b5
     Type: BaseDataVariableType
     DataType: Double
-    Value: 50.0
+    Value: 80.0
   - Name: HighLimit
     Id: g=3ae6dd9f6f3de4fa797ac3007d571379
     Type: BaseDataVariableType
     DataType: Double
     Value: 45.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6f88652f43cbd2cdca188b0151f7375e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Asset Indicators/Labeler/High_Limit_Condition"
+      Children:
+      - Name: Mode
+        Id: g=5525f485ba2bde13f59afc7fd9bfffa9
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: Message
     Id: g=5b6fe974771cd24495c270a52e5f2c65
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Labeler is vibrating too much. Check bearing and motor health"}
+    Value: {"LocaleId":"en-US","Text":"Labeler is vibrating too much. Work Order Scheduled"}
+  - Name: Severity
+    Id: g=ee255ee5c92cbe26f63f87d4a151efe8
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1000

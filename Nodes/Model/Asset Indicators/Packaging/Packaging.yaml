@@ -64,8 +64,9 @@ Children:
 - Name: High_Limit_Condition
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
+  Value: 75.0
 - Name: Asset_ID
+  Id: g=1be0088a1338588274d5e81b037fef11
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 56203365
