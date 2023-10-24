@@ -3,6 +3,7 @@ Id: g=f5df1f90f3402581d73bd7f0ab9d3d2e
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
+  Id: g=66c015f3d7bba3019a80a79a7eb4c411
   Type: BaseDataVariableType
   DataType: String
   Value: "192.168.50.215\\backplane\\1"
@@ -10,6 +11,7 @@ Children:
   Type: PropertyGroup
   Children:
   - Name: ActiveDataItems
+    Id: g=843de1b83d1cee7e600671d580f1c290
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
@@ -20,6 +22,7 @@ Children:
     AccessLevel: Read
     Value: 0
   - Name: CatalogNumber
+    Id: g=1ec746ed32eac73053c0d40ac63d84fd
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
@@ -45,6 +48,7 @@ Children:
     AccessLevel: Read
     Value: 0
   - Name: Mode
+    Id: g=ac125b36584cb2442e0b58ebae61d4bf
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
@@ -60,6 +64,7 @@ Children:
     AccessLevel: Read
     Value: ""
   - Name: Present
+    Id: g=4c7c98d6455429f0167ebd1528eebfcc
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
@@ -75,6 +80,7 @@ Children:
     AccessLevel: Read
     Value: 0
   - Name: RecoverableMajorFaults
+    Id: g=d00f03e24c4e8401bbab632c87ff133b
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
@@ -85,11 +91,13 @@ Children:
     AccessLevel: Read
     Value: false
   - Name: RunMode
+    Id: g=ed6a1af5d2035d9e4b523a624716f970
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: Synchronized
+    Id: g=706188054ba8655c8e28110b26fec2d8
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read

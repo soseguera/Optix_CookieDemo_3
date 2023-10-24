@@ -12,7 +12,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"ea5c4f0e66ed79f9d5e8c11e40d0b85f","Namespace":7}
+    Value: {"IdType":2,"Id":"b84eeb62f7d1e3caae9ce4d4dc3bbb85","Namespace":7}
     Children:
     - Name: Kind
       Type: PropertyType

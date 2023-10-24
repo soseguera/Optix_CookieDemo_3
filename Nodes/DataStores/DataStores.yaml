@@ -8,113 +8,6 @@ Children:
   - Name: Tables
     Type: BaseObjectType
     Children:
-    - Name: Data2MQTT
-      Id: g=bbf03dcabb569442f1fdf829399119e1
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=25;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=25;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=25;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=25;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: LocalTimestamp
-          Type: StoreColumn
-          DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Mixer_Temperature
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Mixer_Pressure
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Mixer_Vibration
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Oven_Temperature
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Oven_Pressure
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Oven_Vibration
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Packaging_Temperature
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Packaging_Pressure
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Packaging_Vibration
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Labeler_Temperature
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Labeler_Pressure
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Labeler_Vibration
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Mixer_High_Limit_Condition
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Mixer_Asset_ID
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: Oven_High_Limit_Condition
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Oven_Asset_ID
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: Packaging_High_Limit_Condition
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Packaging_Asset_ID
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
-        - Name: Labeler_High_Limit_Condition
-          Type: StoreColumn
-          DataType: Float
-          Value: 0.0
-        - Name: Labeler_Asset_ID
-          Type: StoreColumn
-          DataType: Int32
-          Value: 0
     - Name: AlarmsEventLogger1
       Type: SQLiteStoreTable
       Children:
@@ -345,10 +238,114 @@ Children:
     Target: ns=25;i=59
     Direction: Forward
 - Name: SQL_SERVER
+  Id: g=b84eeb62f7d1e3caae9ce4d4dc3bbb85
   Type: ODBCStore
   Children:
   - Name: Tables
     Type: BaseObjectType
+    Children:
+    - Name: Data2MQTT
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=25;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Mixer_Temperature
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Mixer_Pressure
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Mixer_Vibration
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Oven_Temperature
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Oven_Pressure
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Oven_Vibration
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Packaging_Temperature
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Packaging_Pressure
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Packaging_Vibration
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Labeler_Temperature
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Labeler_Pressure
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Labeler_Vibration
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Mixer_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Mixer_Asset_ID
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Oven_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Oven_Asset_ID
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Packaging_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Packaging_Asset_ID
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Labeler_High_Limit_Condition
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Labeler_Asset_ID
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
@@ -360,7 +357,7 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    SecretValue: 9gbMpMNhjWR7PHYgj9nCJAVP2fucUyyvD0RaYHGk3qtTrSgtqw==
+    Value: "Rockwell1"
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32
@@ -379,6 +376,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=9fad32b29738ef553e5b5ed30a0abb79
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -417,6 +415,7 @@ Children:
     Target: ns=25;i=59
     Direction: Forward
   - Name: Server
+    Id: g=57aa78cb1fa584703fe7271702ec8a79
     Type: PropertyType
     DataType: String
     Value: "192.168.50.10"
@@ -425,6 +424,11 @@ Children:
     DataType: UInt16
     Value: 1433
   - Name: Database
+    Id: g=c7a3718142d04d7d1587aea161f3772a
     Type: PropertyType
     DataType: String
     Value: "TEST"
+  - Name: DSN
+    Type: PropertyType
+    DataType: String
+    Value: ""
