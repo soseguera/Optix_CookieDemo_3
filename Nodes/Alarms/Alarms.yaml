@@ -371,3 +371,49 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 1000
+- Name: PLC Connected
+  Id: g=99d2ab3565b034231e9e7b2f24d1a4fc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=14cf6818f41b70a82b93a64b71346117
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
+  - Name: InputValue
+    Id: g=202ca551fd700775e5634fbbed5c2301
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=44fecdecb3880cbe1a04399facf7e3be
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/Present"
+      Children:
+      - Name: Mode
+        Id: g=be0a89bbce564f332b33157dd7088aa3
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=dec487961279f08519da3d924dc40dd9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=17;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=17;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=76bf06248083037e200a13e9350f9938
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"PLC Disconnected. Inspect PLC Chassis"}
