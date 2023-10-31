@@ -19,7 +19,7 @@ Children:
   - Name: Password
     Type: BaseDataVariableType
     DataType: Password
-    Value: "OU,*8Xn&2D5LKutlo;v9"
+    SecretValue: KO4qR3J7H0ROTjYUiiSq1d8cvKenn61vR50ynAUWCTfJy+sJ2AuMhCzbd6TF/ufH
   - Name: ClientID
     Type: BaseDataVariableType
     DataType: String

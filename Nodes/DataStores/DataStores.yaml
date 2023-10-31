@@ -346,6 +346,10 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
@@ -357,7 +361,7 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    Value: "Rockwell1"
+    SecretValue: caJs1zUEeXQ5iRPycHJPhJAbwOPo0w6p5PoWpAerL/4Ns/y2qQ==
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32
