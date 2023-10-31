@@ -245,6 +245,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: Data2MQTT
+      Id: g=006dbacdbd014e67f76054b305b41b26
       Type: ODBCStoreTable
       Children:
       - Class: Reference
@@ -346,6 +347,10 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
