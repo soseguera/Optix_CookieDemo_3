@@ -64,7 +64,6 @@ Children:
     AccessLevel: Read
     Value: ""
   - Name: Present
-    Id: g=4c7c98d6455429f0167ebd1528eebfcc
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
@@ -97,7 +96,6 @@ Children:
     AccessLevel: Read
     Value: false
   - Name: Synchronized
-    Id: g=706188054ba8655c8e28110b26fec2d8
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read

@@ -5,3 +5,4 @@ Children:
 - File: Oven/Oven.yaml
 - File: Packaging/Packaging.yaml
 - File: Labeler/Labeler.yaml
+- File: PLC Diagnostics/PLC Diagnostics.yaml

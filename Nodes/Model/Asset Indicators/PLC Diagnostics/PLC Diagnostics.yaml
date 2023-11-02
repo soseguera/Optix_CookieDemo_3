@@ -1,0 +1,33 @@
+Name: PLC Diagnostics
+Type: FolderType
+Children:
+- Name: PLC_Connected
+  Id: g=37e038a04303c91e08eaffc71450df2f
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/Present"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PLC_Synchronized
+  Id: g=843eee8432fff3abf89825ebf989e25d
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/Synchronized"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

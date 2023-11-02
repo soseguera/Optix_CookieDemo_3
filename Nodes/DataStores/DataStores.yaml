@@ -347,6 +347,14 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: PLC_Connected
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: PLC_Synchronized
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
@@ -362,7 +370,7 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    Value: "Rockwell1"
+    SecretValue: waGAXQHQSi1PDh+O3sdyk/V/lVsgFUTNpTK8XstOm3lESXjJXA==
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32
