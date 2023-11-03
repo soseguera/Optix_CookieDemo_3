@@ -237,12 +237,12 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1280.0
+    Value: 1600.0
   - Name: Height
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 800.0
+    Value: 900.0
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
@@ -500,7 +500,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"788bad051be353eecde0bc8853270067","Namespace":7}
+          Value: {"IdType":2,"Id":"5fcbd4a068be9b9cf281fc50e8e9775e","Namespace":7}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -516,7 +516,39 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"5fcbd4a068be9b9cf281fc50e8e9775e","Namespace":7}
+          Value: {"IdType":2,"Id":"788bad051be353eecde0bc8853270067","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel8
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"8677ae5a6e0cb50ccfa3705f715cc543","Namespace":7}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+      - Name: Panel9
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"36825314971ebedc07921d05bb79b80d","Namespace":7}
           Children:
           - Name: Kind
             Type: PropertyType
