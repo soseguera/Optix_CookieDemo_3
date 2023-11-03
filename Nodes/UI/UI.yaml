@@ -242,7 +242,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 750.0
+    Value: 800.0
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
@@ -322,6 +322,16 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 0.0
+        - Name: FontFamily
+          Type: BaseDataVariableType
+          DataType: Font
+          ModellingRule: Optional
+          Value: ""
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 700
       - Name: Image1
         Type: Image
         Children:
