@@ -363,6 +363,22 @@ Children:
           Type: StoreColumn
           DataType: Boolean
           Value: false
+        - Name: Mixer_Running
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: Oven_Running
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: Packaging_Running
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: Labeler_Running
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
   - Name: Type
     Type: PropertyType
     DataType: DBMSType

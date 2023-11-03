@@ -70,3 +70,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 29721857
+- Name: Oven_Running
+  Id: g=752895e574a66a7977c1ab0c5ca97091
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Oven_Running"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

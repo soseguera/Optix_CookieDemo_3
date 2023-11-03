@@ -99,3 +99,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 75.0
+- Name: Mixer_Running
+  Id: g=26d07160578d17dec95f29d71d309a8e
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Running"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

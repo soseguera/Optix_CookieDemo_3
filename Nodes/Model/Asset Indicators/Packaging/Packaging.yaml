@@ -70,3 +70,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 56203365
+- Name: Packaging_Running
+  Id: g=430d3a447669a57ed898b2d2a99e65a7
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Running"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

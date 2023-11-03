@@ -70,3 +70,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 29721718
+- Name: Labeler_Running
+  Id: g=a5352e83a09b2b023e057c8f61a3dc70
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Running"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
