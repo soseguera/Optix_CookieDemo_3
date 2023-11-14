@@ -10524,7 +10524,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 600.0
+        Value: 540.0
       - Name: ReferenceTimeZone
         Type: BaseDataVariableType
         DataType: ReferenceTimeZone
@@ -10557,12 +10557,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 166.0
+        Value: 168.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 800.0
+        Value: 705.0
     - Name: Dynamic_Trend
       Type: Switch
       Children:
@@ -10590,12 +10590,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: 52.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 828.0
+        Value: 733.0
       - Name: UncheckedText
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -10628,12 +10628,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 48.0
+        Value: 50.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 793.0
+        Value: 698.0
       - Name: UncheckedText
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -10706,12 +10706,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 150.0
+        Value: 152.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 795.0
+        Value: 700.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -10824,12 +10824,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 160.0
+        Value: 162.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 821.0
+        Value: 726.0
       - Name: Frames
         Type: BaseObjectType
         Children:
@@ -10888,12 +10888,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 520.0
+        Value: 522.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 795.0
+        Value: 700.0
     - Name: Label6
       Type: Label
       Children:
@@ -10906,12 +10906,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 379.0
+        Value: 381.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 800.0
+        Value: 705.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -10959,12 +10959,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 520.0
+        Value: 522.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 830.0
+        Value: 735.0
     - Name: Label1
       Type: Label
       Children:
@@ -10977,12 +10977,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 356.0
+        Value: 358.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 835.0
+        Value: 740.0
     - Name: Label2
       Type: Label
       Children:
@@ -10995,12 +10995,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 630.0
+        Value: 632.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 800.0
+        Value: 705.0
     - Name: TextBox3
       Type: TextBox
       Children:
@@ -11028,12 +11028,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 783.0
+        Value: 785.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 795.0
+        Value: 700.0
     - Name: TextBox4
       Type: TextBox
       Children:
@@ -11061,12 +11061,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 783.0
+        Value: 785.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 830.0
+        Value: 735.0
     - Name: Label3
       Type: Label
       Children:
@@ -11079,12 +11079,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 626.0
+        Value: 628.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 835.0
+        Value: 740.0
 - Name: Hardware_Diagnostics
   Id: g=5fcbd4a068be9b9cf281fc50e8e9775e
   Supertype: Screen
@@ -12008,7 +12008,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
+      Value: -10.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
@@ -12417,7 +12417,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Mixer_OFF"}
+        Value: {"LocaleId":"en-US","Text":"MIXER_ON"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -12478,7 +12478,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Packaging_OFF"}
+        Value: {"LocaleId":"en-US","Text":"PACKAGING_ON"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -12506,7 +12506,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Oven_OFF"}
+        Value: {"LocaleId":"en-US","Text":"OVEN_ON"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -12567,7 +12567,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Labeler_OFF"}
+        Value: {"LocaleId":"en-US","Text":"LABELER_ON"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -12665,7 +12665,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 20.0
+        Value: -120.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
