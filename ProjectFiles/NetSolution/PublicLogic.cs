@@ -88,7 +88,7 @@ public class PublicLogic : BaseNetLogic
                     lastAssetName = parts[0];
                 }
                 // Add the variable to the current dictionary
-                currentDict[parts[1]] = variableToLog.Value;
+                currentDict[parts[1]] = variableToLog.Value.ToString();
             } 
             else if (parts.Length > 2)
             {
@@ -96,7 +96,7 @@ public class PublicLogic : BaseNetLogic
                 {
                     if (lastAssetName == parts[0])
                     {
-                        currentDict[parts[1] + "_" + parts[2]] = variableToLog.Value;
+                        currentDict[parts[1] + "_" + parts[2]] = variableToLog.Value.ToString();
                     }
                 }
             }
