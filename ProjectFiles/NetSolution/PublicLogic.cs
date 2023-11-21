@@ -27,7 +27,6 @@ using FTOptix.DataLogger;
 using FTOptix.Recipe;
 using Newtonsoft.Json.Linq;
 using System.Linq;
-using FTOptix.WebUI;
 
 public class PublicLogic : BaseNetLogic
 {
@@ -72,24 +71,46 @@ public class PublicLogic : BaseNetLogic
         var dataLoggerStore = LogicObject.GetVariable("DataLogger").Value;
         var dataInfo = InformationModel.Get<DataLogger>(dataLoggerStore);
 
-        // Log.Info(dataInfo.TableName);
+        Dictionary<string, Dictionary<string, string>> dictOfDicts = new Dictionary<string, Dictionary<string, string>>();
+        Dictionary<string, string> currentDict = null;
+        string lastAssetName = null;
 
-        // foreach (var variableToLog in dataInfo.VariablesToLog.ToList())
-        // {
-        //     Log.Info(variableToLog.BrowseName);
-        //     Log.Info(variableToLog.Value);
-        // }
-
-        var dataToSerialize = new
+        foreach (var variableToLog in dataInfo.VariablesToLog.ToList())
         {
-            TableName = dataInfo.TableName,
-            VariablesToLog = dataInfo.VariablesToLog.Select(v => new {
-                BrowseName = v.BrowseName,
-                Value = v.Value
-            })
-        };
+            string[] parts = variableToLog.BrowseName.Split('_');
+            if (parts.Length < 3)
+            {
+                if (lastAssetName != parts[0])
+                {
+                    // New asset name, create a new dictionary
+                    currentDict = new Dictionary<string, string>();
+                    dictOfDicts[parts[0]] = currentDict;
+                    lastAssetName = parts[0];
+                }
+                // Add the variable to the current dictionary
+                currentDict[parts[1]] = variableToLog.Value;
+            } 
+            else if (parts.Length > 2)
+            {
+                if (parts[1] == "Asset" || parts[1] == "High")
+                {
+                    if (lastAssetName == parts[0])
+                    {
+                        currentDict[parts[1] + "_" + parts[2]] = variableToLog.Value;
+                    }
+                }
+            }
+        }
 
-        var json = JsonConvert.SerializeObject(dataToSerialize);
+        // Add timestamp to each dictionary after all measurements have been processed
+        double unixTimestamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+        foreach (var dict in dictOfDicts.Values)
+        {
+            dict["Timestamp"] = unixTimestamp.ToString();
+        }
+
+        string json = JsonConvert.SerializeObject(dictOfDicts, Formatting.Indented);
+        //Log.Info(json);
         var topic = LogicObject.GetVariable("Topic");
 
         ushort msgId = publishClient.Publish(topic.Value, // topic
@@ -98,6 +119,7 @@ public class PublicLogic : BaseNetLogic
             false); // retained
 
     }
+    
 
 
     private MqttClient publishClient;

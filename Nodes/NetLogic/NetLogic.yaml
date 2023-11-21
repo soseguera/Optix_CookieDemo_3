@@ -15,11 +15,11 @@ Children:
   - Name: Username
     Type: BaseDataVariableType
     DataType: String
-    Value: "hivemq.webclient.1693586254057"
+    Value: "OptixBrokerHiveMQClient"
   - Name: Password
     Type: BaseDataVariableType
     DataType: Password
-    SecretValue: e5sDqYTvAiLhrWCNOHSKOO9IxkpHJ3r26wCoPsGxP9gK9ai/xaPFnth3vJlvAV1g
+    SecretValue: kMm9TvxiDmFTUib/STYxOK7d9IPiqTjZcb6gZ1nJDbpfonDkMV4=
   - Name: ClientID
     Type: BaseDataVariableType
     DataType: String
