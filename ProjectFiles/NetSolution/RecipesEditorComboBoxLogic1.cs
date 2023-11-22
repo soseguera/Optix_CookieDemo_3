@@ -14,6 +14,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.ODBCStore;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class RecipesEditorComboBoxLogic1 : BaseNetLogic

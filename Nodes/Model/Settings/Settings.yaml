@@ -1,4 +1,5 @@
 Name: Settings
+Id: g=7eff3b27e838993f7f80d31ba193f899
 Type: FolderType
 Children:
 - Name: FolderPath
@@ -7,24 +8,29 @@ Children:
   DataType: AbsoluteResourceUri
   Value: "%PROJECTDIR%\\CSV"
 - Name: PLC_URL
+  Id: g=eb2858d442c0d38a810142801b989926
   Type: BaseDataVariableType
   DataType: String
   Value: "127.0.0.1"
   Children:
   - Name: DynamicLink
+    Id: g=05a84454af9445831c1dc602c0632a25
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../CommDrivers/Water Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Route"
     Children:
     - Name: Mode
+      Id: g=9294c9ea54baacfa55d1175efc050e76
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: PDF_Output_Path
+  Id: g=93b8b5c67abfbfff89b521cf41519267
   Type: BaseDataVariableType
   DataType: String
   Value: "C:\\Shared Files - Process Room\\FT Optix Files\\SandBox_Energy\\ProjectFiles\\PDF\\DataReport.pdf"
 - Name: Query_Max_Values
+  Id: g=741d17a7f9d50a7ebcfc1d66c3efa7eb
   Type: BaseDataVariableType
   DataType: String
   Value: "SELECT * FROM \"DataLogger1\" limit 20"
@@ -32,4 +38,4 @@ Children:
   Id: g=d50f3fc3786bce479de88c0b90027a87
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
+  Value: true

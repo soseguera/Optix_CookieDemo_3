@@ -1,2 +1,46 @@
 Name: 'OPC-UA'
+Id: g=fd2914c0de5dd785122368bbcbc7d205
 Type: OPCUACategoryFolder
+Children:
+- Name: OPCUAServer
+  Id: g=6a698d53c0db6cb2019d9b72a9c8fe7f
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Id: g=737a3db30b59a57421ddbd966c250b32
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://192.168.50.6:59100"
+  - Name: NodesToPublish
+    Id: g=c6360fefd4f52f8da60ff311d2446243
+    Type: BaseObjectType
+  - Name: MinimumMessageSecurityMode
+    Id: g=663938b553d5b2e77027e28408f7b947
+    Type: PropertyType
+    DataType: MessageSecurityModeEnum
+    Value: 0
+  - Name: MinimumSecurityPolicy
+    Id: g=09a0ce97132f3908a2cb6cb25f46f5b7
+    Type: PropertyType
+    DataType: SecurityPolicyEnum
+    Value: 0
+  - Name: SamplingInterval
+    Id: g=19ac56bd252911649e6ee888c3086318
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:5.0000000"
+  - Name: UseNodePathInNodeIds
+    Id: g=d2154ad82216dbb721cfd326760ed7ef
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ProductName
+    Id: g=b4160f8379ff83636743e8709df17e17
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "FactoryTalkOptix HMI FTOptixApplication"
+  - Name: ProductURI
+    Id: g=b74fe749f6c20b84d83f84508d94ee16
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "urn:FactoryTalkOptixHMI:FTOptixApplication"

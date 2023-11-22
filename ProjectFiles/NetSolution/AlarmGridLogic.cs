@@ -9,6 +9,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Recipe;
 using FTOptix.ODBCStore;
 using FTOptix.WebUI;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

@@ -1,4 +1,5 @@
 Name: Loggers
+Id: g=148d3f5ac3708706f3b2ac43b0f83bcf
 Type: LoggersCategoryFolder
 Children:
 - Name: Data2MQTT
@@ -6,22 +7,60 @@ Children:
   Type: DataLogger
   Children:
   - Name: SamplingMode
+    Id: g=fac9df7b324dbebb901ec00b748c6828
     Type: PropertyType
     DataType: SamplingModeEnum
     Value: 1
   - Name: Store
+    Id: g=9a699cc4e03da3bfaf4a8af5c5c8a971
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"b84eeb62f7d1e3caae9ce4d4dc3bbb85","Namespace":7}
     Children:
     - Name: Kind
+      Id: g=3a3a2faea7e7e4827b3d0b7aed8f0b05
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":1,"Namespace":25}
   - Name: VariablesToLog
+    Id: g=be8779b8d2776c23331593a892a4922c
     Type: BaseObjectType
     Children:
+    - Name: Mixer_Running
+      Id: g=9b54e58526721ea20f5a5e81d1fcc239
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=92fd3a72851e7db6b5c184603bb43322
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=aaf07274e68e5e58d0058a1284195b54
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=0fe6c0ee4809e4dd09bfa660d50aaebd
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=fabdf868aac7cab9f40a6b373b7e9c69
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Mixer/Mixer_Running"
+        Children:
+        - Name: Mode
+          Id: g=fd2af38946377cc493feea5c4647c016
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
     - Name: Mixer_Temperature
+      Id: g=155ce8b31d20d653ee5df7f9ca245353
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -31,52 +70,96 @@ Children:
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=2507f3128eac1b43340ed9a3b4f2b6b8
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=b6a5a02091045556ccd30e85357a46b1
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=60897b970fbe22757e4b3010fd76ff1d
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Mixer/Mixer_Temperature"
         Children:
         - Name: Mode
+          Id: g=62c9b2620099cf6f7fac723396c4c24f
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Mixer_Pressure
+      Id: g=1a81187abead0366f6e9bf24f6db5134
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=0c4a736a564c75d34473713dc072bf97
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=74ca8f1100adf74c71af42bf3b6ba443
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=528f6e0623d6c34acb6c6aeaffc85410
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=bf83abdc64e00d1704bddaa16ccdd455
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Mixer/Mixer_Pressure"
         Children:
         - Name: Mode
+          Id: g=7fd4a0c00ee8272c3561392277916c0d
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mixer_High_Limit_Condition
+      Id: g=6369a5b50af892f6bf3fa4d598349b35
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=b474971841da8303a8eda1a53d704d23
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=f9bc6f48d9183a126eb5c0790e09fbe0
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=bac193d5ce54792375c87418ad0aa99a
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=4450527418a691e110f62ee375f26d0a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Mixer/High_Limit_Condition"
+        Children:
+        - Name: Mode
+          Id: g=4a1ace1e7a060ef18d329d2e520f2b84
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Mixer_Vibration
+      Id: g=46f636cb25a4fc489f3237bf0d8d2ad3
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -86,25 +169,96 @@ Children:
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=975952ebf2594a9f3d938765164c96d2
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=cef52da90c805ec3e70c47f93c0f184c
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=abc7faf26a5afdea5395781226e1f2bb
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Mixer/Mixer_Vibration"
         Children:
         - Name: Mode
+          Id: g=9d1dae86a834553b07a3dca4638c57a9
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Mixer_Asset_ID
+      Id: g=eb5f21cc8f16781d3e57639d0247e8f2
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=eb6e5ecd9375421a5f2368e157adbda8
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=63d577dbd284909d65d115cfdd10e720
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=edc2323b44a4644bf1c53873f3bea762
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=d1634d36ade6f2024deca8d9c7282d56
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Mixer/Asset_ID"
+        Children:
+        - Name: Mode
+          Id: g=5e6e3d52a304bae51e66eb843e6e9ceb
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Oven_Running
+      Id: g=96a790fe7cfd49d26959f2afea5f993c
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=c88f1c61362bccb87be6b4fafc9211ea
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=dd4468827371dd75739047a2abd5c857
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=ce5a7b497a1443e8704d12e576be2f2c
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=5f11e52ff217245109535658348a666a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Oven/Oven_Running"
+        Children:
+        - Name: Mode
+          Id: g=752e6ce7a117836b618fa963d6a77530
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Oven_Temperature
+      Id: g=c79511c93e1e942e5959d294dd10f171
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -114,187 +268,426 @@ Children:
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=01f67f4ae04121c37f529eb8a870c120
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=930482f3072e39f93a47a41383da954a
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=8ef5139307d61cb030c621d00072c9c8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Oven/Oven_Temperature"
         Children:
         - Name: Mode
+          Id: g=d412814920ea74bf48eecfa17cc3f40d
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Oven_Pressure
+      Id: g=262d16e6bc0b798f60536fadbd1e5980
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=3be610adfabed8afedfc81785d4a83cd
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=b6ad11b2860ed2300842eaa675fe1bd6
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=43e69223a20d542c54a93677bf267f38
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=f30dc117b7c405a73946d0b836f8bb59
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Oven/Oven_Pressure"
         Children:
         - Name: Mode
+          Id: g=d376875dd2c1c1e50192104f4f0b93f1
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Oven_Vibration
+      Id: g=77cb08e9ba5e65a6c7b61d68d039a60e
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=fd3ab95fc22a2d43d6106c2ad27be157
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=937652c0e9fdc93258dea7f0caa1a059
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=c1ff4a1b9d442a7194e7db75270967d3
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=cf3fd7a062808b7e6b986839139959fe
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Oven/Oven_Vibration"
         Children:
         - Name: Mode
+          Id: g=96b191bf5e42ae6fa70b01b9b6110653
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Packaging_Temperature
+    - Name: Oven_High_Limit_Condition
+      Id: g=d5e17d175bc6997899354590e82602b1
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=9a49ab2586e81b89d85dd2d7fe850b78
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=536d835c7c549f4d5c9290bb1d9227fb
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=999d13e0cf6e5cadef94c8b0b6496cb2
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=f9f62526aed204d5217e12706bacf892
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Oven/High_Limit_Condition"
+        Children:
+        - Name: Mode
+          Id: g=2bbeff03acb36af1d62b50faa2639362
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Oven_Asset_ID
+      Id: g=a6bc5be20bce2aede31d4aa68af364a6
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=87418cd226493e59c79897ef61deaeeb
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=d5d9598a03fd4cb031f33073e35f6e5e
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=cd6e27aff14a8dfc97f08a09584f3479
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=5554d5becbbdba9682d0af9fc2e4013a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Oven/Asset_ID"
+        Children:
+        - Name: Mode
+          Id: g=92f9c770788d810b7ff08f24400a61d6
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Packaging_Running
+      Id: g=680910c8a9f3aebd759e9b9943748710
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=b3d61dbc369e0958dd774e55495c5f2f
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=2ea41ac58a14ad3d4b0e1337f4111b8f
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=c1d5fd41df0c3d36ac57cc876c31012e
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=1b3e05fd1405e92f47532f482ed4c97a
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Packaging/Packaging_Running"
+        Children:
+        - Name: Mode
+          Id: g=3c6800b3b8d2e6af32ba3c83644a55d8
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Packaging_Temperature
+      Id: g=5f88a6c056b7f5a6248963abb2ade042
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=af1a8b19488f92f503cc774306fcde04
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=9d5abcaa581ad5ee871c58cf167eb319
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=5d602a7b83ec9cb591980558b4512336
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=02c1c2c37b03d142114f0a12be2bd898
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Packaging/Packaging_Temperature"
         Children:
         - Name: Mode
+          Id: g=c6998bd4fe96aa6162b5e675a643a559
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Packaging_Pressure
+      Id: g=f8b79dc7cd34f8bc5f2c8cf59637f09f
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=a4a355a087c156720953e0f6b1a1813b
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=8422f4955333acc35f4db5bb2abd27a1
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=b405167233bb4663aeb00d0841345e65
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=d06e9fd81ee3317c611eb9665f840efa
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Packaging/Packaging_Pressure"
         Children:
         - Name: Mode
+          Id: g=106f60a00f08b475c41ff850cace4baa
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Packaging_Vibration
+      Id: g=f6856d8e78104156271493368ae9bbad
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=b54efaafccb77b3fa6e52f6f90fc5352
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=3605e7c49845484545e9efb3bb7aab22
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=fa853d116a8f4a85b8c1e7f5fc3a0175
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=bff31271cd1c2351ce0df11d5a1cfc20
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Packaging/Packaging_Vibration"
         Children:
         - Name: Mode
+          Id: g=3fa787eaeb0574bed17eb8836eaf942b
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Labeler_Temperature
+    - Name: Packaging_High_Limit_Condition
+      Id: g=72b33573b42d65d250b9de7071c57da2
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=2398e3e274022d8c76f199f1ea2a3076
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=adead67bd4ffed70ff357cbf3d7f3b42
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=77f583c920757906e7339293a60707af
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=1e74b3458654d90ad7c9d036d44d7e75
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Packaging/High_Limit_Condition"
+        Children:
+        - Name: Mode
+          Id: g=a02fd38cd9324f3359ab94711df47ad7
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Packaging_Asset_ID
+      Id: g=26d2f3faa5a2c5983f96b2b28fe80fff
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=8fb725661f71d2ab6cf531fac054e6c1
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=4620ac9e16f6dbe3137797d2c488313d
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=2b0255cea83099d1b0efeb19fa8a533b
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=cb1e645f69589779407b84b17b4a8637
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Packaging/Asset_ID"
+        Children:
+        - Name: Mode
+          Id: g=313c467008ccebcd55870373fcfeb198
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Labeler_Running
+      Id: g=1b235dd5a408be6b9bf3819520cb7164
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=9fd5bca46b50f5d2eab94c7f08c90b0e
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=3817b4ac15e16ae9c9224f36a8ac9a20
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=3dbcdaa918c2d8f8c4760783f5e4b409
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=864d89417238509ce596d5d3e7550f16
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Labeler/Labeler_Running"
+        Children:
+        - Name: Mode
+          Id: g=44ceb4d5968ceaf83b7ca3256cd05757
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Labeler_Temperature
+      Id: g=3893076d3c9fec2ea63f2b1e4225df2d
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=356ff1bf1a29aeee49be0a37a1d350f0
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=ed5b2b462bcb3974a9cd717393c0705b
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=5d4abb2fb4f6170b1e512b4b77904e33
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=e02c022181e81bffca34fefd58df6abc
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Labeler/Labeler_Temperature"
         Children:
         - Name: Mode
+          Id: g=515ef23596a07b790ea9f8a854f3dcf3
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Labeler_Pressure
+      Id: g=fa92ffc01f9d93586797181d1635bd02
       Type: VariableToLog
       DataType: BaseDataType
       Children:
@@ -304,453 +697,256 @@ Children:
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=386221519d399c06655ac2f258e8314c
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=bf64a7ce5c4e92a14c787a354b8885c7
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=69b2a79adebaef1479b0203b72afc0e0
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Labeler/Labeler_Pressure"
         Children:
         - Name: Mode
+          Id: g=6d4ba2974fe68135e92a6ffe5235b023
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Labeler_Vibration
+      Id: g=0c558d26d52c30fa2c58fb17a2db8f21
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=6cdd0d12b8f99a9a275e212bd07bb555
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=fd9755012647f1773288ede24d0a304f
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=d2e019341ab41c10bc9f0c31c14ef155
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=fcd3a6e372d43aa1248ff36de0a32f39
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Labeler/Labeler_Vibration"
         Children:
         - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Mixer_High_Limit_Condition
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Mixer/High_Limit_Condition"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Mixer_Asset_ID
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Mixer/Asset_ID"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Oven_High_Limit_Condition
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Oven/High_Limit_Condition"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Oven_Asset_ID
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Oven/Asset_ID"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Packaging_High_Limit_Condition
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Packaging/High_Limit_Condition"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Packaging_Asset_ID
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Packaging/Asset_ID"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Labeler_High_Limit_Condition
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Labeler/High_Limit_Condition"
-        Children:
-        - Name: Mode
+          Id: g=fef0e07cd95aea30387370d9d20b5685
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Labeler_Asset_ID
+      Id: g=0a1db07d93d7b3b2eab2cfc0590bddcd
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=a7ec02288fea48222a2543a8427d3439
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=ec65410909324ed5d9d27f42552951f7
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=30d858fa93021b029870715277fbccc5
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=02e67a7d519544dfc66774c63ec12de8
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/Labeler/Asset_ID"
         Children:
         - Name: Mode
+          Id: g=fe845324dfffdbf21d3994f258b76f42
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: PLC_Connected
+    - Name: Labeler_High_Limit_Condition
+      Id: g=6151804ead2fbd7de3d4c44f3df4311f
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=4e784bb0d7975505f77b1b6a04206b89
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=e3adf01794fb00f4cc1479a41d639a81
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=7534225d7232ad8d987faadcaa06ea6a
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=0d1185b3b1dc4a1365aa1ba0938964c0
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../Model/Asset Indicators/Labeler/High_Limit_Condition"
+        Children:
+        - Name: Mode
+          Id: g=190e0f40a7cb943fb721c2ccec519960
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: PLC_Connected
+      Id: g=7ff323949105a5d2a7ed0f819bab85ea
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Id: g=6c3d781d8eaf27f2b3e4dc143bb63372
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Id: g=00344553b5de5a29db6da734bb88e964
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: LastOperationCode
+        Id: g=7839b1300b7c609f16297e0e685841fe
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+        Value: 0
+      - Name: DynamicLink
+        Id: g=5fd5e7b704464eb7d88ff9bb8180d297
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/PLC Diagnostics/PLC_Connected"
         Children:
         - Name: Mode
+          Id: g=67721993020959d90f2db8a20bbbc5dd
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: PLC_Synchronized
+      Id: g=1c40b1d4cc49d3f072037739fcfd6968
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=b29a9f10c067fe9b36b14c88a8eadc47
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=afa4af89cd084ba687915e947227e340
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=de7bc96091c04ac44101d25f54734631
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=a2fad8e52e16d210844947fadedb82e0
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/PLC Diagnostics/PLC_Synchronized"
         Children:
         - Name: Mode
+          Id: g=b0162f91c46a2317dca81be59ada0488
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: PLC_RunMode
+      Id: g=22dec352f1904678d43ed0c107e65366
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=a662a4301e1d7735ab8d3a828db61e99
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=57c8544b3c38fc1ab8786b8278bdfffa
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=7ac679b30465603e6e9ee2f1e4793175
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=eb8e5b9d710a9fcde1786b6cc3236807
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../Model/Asset Indicators/PLC Diagnostics/PLC_RunMode"
         Children:
         - Name: Mode
+          Id: g=a6effbcf128e502bad38c6d55566bba1
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
-    - Name: Mixer_Running
+    - Name: PLC_Asset_ID
+      Id: g=9e67f0bc4cbf156e58a56ce77a0bdf0d
       Type: VariableToLog
       DataType: BaseDataType
       Children:
       - Name: LastValue
+        Id: g=61ec9f58243c41d2c842f1e617d15f50
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
       - Name: Timestamp
+        Id: g=afe3fb84453c77cf707bfa87206cd503
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
         Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
+        Id: g=444fea55c91bdbf665f976ef5f76e82f
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
         Value: 0
       - Name: DynamicLink
+        Id: g=6f2f75df73c0be8263c9b896b4d7fc9b
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Mixer/Mixer_Running"
+        Value: "../../../../Model/Asset Indicators/PLC Diagnostics/Asset_ID"
         Children:
         - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Oven_Running
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Oven/Oven_Running"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Packaging_Running
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Packaging/Packaging_Running"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          Value: 2
-    - Name: Labeler_Running
-      Type: VariableToLog
-      DataType: BaseDataType
-      Children:
-      - Name: LastValue
-        Type: PropertyType
-        DataType: BaseDataType
-        AccessLevel: Read
-      - Name: Timestamp
-        Type: PropertyType
-        DataType: UtcTime
-        AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
-      - Name: LastOperationCode
-        Type: PropertyType
-        DataType: StatusCode
-        AccessLevel: Read
-        Value: 0
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../../../Model/Asset Indicators/Labeler/Labeler_Running"
-        Children:
-        - Name: Mode
+          Id: g=0da489d7aeabb22860673cba124d0ba0
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
@@ -758,24 +954,29 @@ Children:
     Target: ns=23;i=21
     Direction: Forward
   - Name: LogLocalTime
+    Id: g=e24b4e6d2981e7bebd548db941d4998e
     Type: PropertyType
     DataType: Boolean
     Value: true
   - Name: SamplingPeriod
+    Id: g=51ee911ed83afc7584dada5b72a48e53
     Type: PropertyType
     DataType: Duration
     Value: "0:00:00:1.0000000"
     Children:
     - Name: DynamicLink
+      Id: g=f287c63ca3ad4675858ec049cef8f765
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/Trends_Properties/Sampling_Period_Value"
       Children:
       - Name: Mode
+        Id: g=d7b2a0b426c6fce0c2d73db8af5d48bf
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
   - Name: TableName
+    Id: g=6be7188dbce6d5e5df85ca77f2279770
     Type: PropertyType
     DataType: String
     Value: "Data2MQTT"
@@ -785,133 +986,166 @@ Children:
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: Enabled
+    Id: g=40f6f86ba681dbe2d6ee43bbd3114286
     Type: PropertyType
     DataType: Boolean
     Value: true
   - Name: Store
+    Id: g=dd005ac2630a52f877ea99ad71c515bb
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"ea5c4f0e66ed79f9d5e8c11e40d0b85f","Namespace":7}
+    Value: {"IdType":2,"Id":"b84eeb62f7d1e3caae9ce4d4dc3bbb85","Namespace":7}
     Children:
     - Name: Kind
+      Id: g=8d0f89b0702519e9ffdba84a698edb2b
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":1,"Namespace":25}
     - Name: NodeClass
+      Id: g=302ba40df7774c9759f551a4502d8db2
       Type: PropertyType
       DataType: NodePointerNodeClass
       Value: 0
   - Name: EventFieldPaths
+    Id: g=4d13f4861673ed0ee963a37ff5e76562
     Type: BaseObjectType
     Children:
     - Name: ActiveState_Id
+      Id: g=7f8a10bd9cd64b65598084673c90cda7
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:ActiveState/0:Id"
     - Name: AckedState_Id
+      Id: g=35f6603d1f5a30ba16cc6534217426e5
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:AckedState/0:Id"
     - Name: ConfirmedState_Id
+      Id: g=656fb602bf6c987d9d35fd10034158be
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:ConfirmedState/0:Id"
     - Name: ConditionName
+      Id: g=408bdeec11710ae88699b1855f3afb24
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:ConditionName"
     - Name: EnabledState_Id
+      Id: g=3fb64830809a8b2a8d31329491a401a5
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:EnabledState/0:Id"
     - Name: SourceName
+      Id: g=13038bbcf2a08dacfd99014a4a9c2b97
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:SourceName"
     - Name: Time
+      Id: g=874a0f9ebd62345a9623621dd2f654cf
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:Time"
     - Name: Message
+      Id: g=be8496b51d034846018553971bab12e9
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:Message"
     - Name: Severity
+      Id: g=354df878f3e0ca8be731af51285eff26
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:Severity"
     - Name: LocalTime
+      Id: g=6aa6f0d6fbe64bbf78ee0734a36b1a0a
       Type: EventFieldPath
       DataType: NodePath
       Value: "0:LocalTime"
   - Name: EventConfigurations
+    Id: g=5c0782acb3881f8b40baa37b494dec63
     Type: BaseObjectType
     Children:
     - Name: EventConfiguration
+      Id: g=efd71db2d4d6324ef63e2e52d7c5fbb7
       Type: EventConfiguration
       Children:
       - Name: MonitorSubtree
+        Id: g=ce7c3839d6b816d1005f1d505b8f5794
         Type: PropertyType
         DataType: Boolean
         Value: false
       - Name: EventType
+        Id: g=adf6839d6b2eeb0c30439852bf590b17
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
         Value: {"Id":2915}
         Children:
         - Name: Kind
+          Id: g=14a41537054c5ade54715c24bdbba364
           Type: PropertyType
           DataType: NodeId
           Value: {"Id":2041}
         - Name: NodeClass
+          Id: g=a4d1b429cb4262bd1cabac9283b7546d
           Type: PropertyType
           DataType: NodePointerNodeClass
           Value: 1
   - Name: EventArguments
+    Id: g=6c8545542a2c1eb498b51720368f4d2d
     Type: BaseObjectType
     Children:
     - Name: ActiveState_Id
+      Id: g=97bf425f96e4741664a84d857d22b934
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: AckedState_Id
+      Id: g=a965c27f3440625c307b748dd46b381a
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: ConfirmedState_Id
+      Id: g=e377997d4e2a0436acce818f8bb3ac4a
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: ConditionName
+      Id: g=1bd3464da8d67f2ced1038b5893abc5e
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: EnabledState_Id
+      Id: g=276f260ad9fb9581097a0cdede9ed04d
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
     - Name: SourceName
+      Id: g=117dbae854a57bd6ebfe8ee905434652
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Time
+      Id: g=214a23545ac630821a1f2f754b0dbcd0
       Type: BaseDataVariableType
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
     - Name: Message
+      Id: g=a96f5b31de336c32d22d4f73c337da33
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Severity
+      Id: g=074a723841f7155bc952787fc0de4eb0
       Type: BaseDataVariableType
       DataType: UInt16
       Value: 0
     - Name: EventTypeId
+      Id: g=b6698816dd9aee5a6175934fde6522b4
       Type: BaseDataVariableType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: LocalTime
+      Id: g=1ec8a2c0e1992bcfa00ee1d00a5b6b22
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
       Value: 
@@ -925,162 +1159,197 @@ Children:
         }
        }
   - Name: EventFieldsToLog
+    Id: g=2526e0ba19390dfe1ee49df7b7e48a07
     Type: BaseObjectType
     Children:
     - Name: ActiveState_Id
+      Id: g=6376c7b30c58904dfeb7f6495e411f7f
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=ba6d6b8a69560a8e2b580ad2ec9097a9
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ActiveState_Id"
         Children:
         - Name: Mode
+          Id: g=537fcc04d945df7964f92c704c714431
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: AckedState_Id
+      Id: g=ed576c9af36fd5f478fde0f3a86e67ff
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=444ee2fc27a2fcc3bbe3173facbff607
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/AckedState_Id"
         Children:
         - Name: Mode
+          Id: g=86da8deb11de6a7c4b012c47ebe21feb
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: ConfirmedState_Id
+      Id: g=b144e0f239fd0913348c103a4484292e
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=9f3e563bd2186d7dff5bc0eb5c3c8748
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ConfirmedState_Id"
         Children:
         - Name: Mode
+          Id: g=1d9f6c79afefd816c4728312f6a0c7e1
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: ConditionName
+      Id: g=5f95318591e1072addb0c0e607f6ee27
       Type: EventFieldToLog
       DataType: String
       Value: ""
       Children:
       - Name: DynamicLink
+        Id: g=cd946d83b395f20edee4eff14349c411
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/ConditionName"
         Children:
         - Name: Mode
+          Id: g=4492568c50c6282b6e1db2642be5b173
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: EnabledState_Id
+      Id: g=5c28cab48d5804ab05ed4ce342279d91
       Type: EventFieldToLog
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
+        Id: g=611e15733dcb44896d5e4f640e53633e
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/EnabledState_Id"
         Children:
         - Name: Mode
+          Id: g=9b128fc1b3d837d516a09876c6688f04
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: SourceName
+      Id: g=1cb06122ad69bb89afd8599e0c315032
       Type: EventFieldToLog
       DataType: String
       Value: ""
       Children:
       - Name: DynamicLink
+        Id: g=18c3f59a058d7dec4d4b9d5b5b09944f
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/SourceName"
         Children:
         - Name: Mode
+          Id: g=77105196a6c19c0be8a48ca66be1a211
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Time
+      Id: g=b1d111a6dba2c767530819d312a9b586
       Type: EventFieldToLog
       DataType: UtcTime
       Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DynamicLink
+        Id: g=343c328753865b632f7b10aab681bbf5
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Time"
         Children:
         - Name: Mode
+          Id: g=28d046adaab4f24313e45f979f9db071
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Message
+      Id: g=0ffb43aeaae15a181b0c3aec2881e4ea
       Type: EventFieldToLog
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
+        Id: g=ccdb3c4233ee404075d7278910c957fd
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Message"
         Children:
         - Name: Mode
+          Id: g=01e1fbb56797804642ae30ea00f567e0
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: Severity
+      Id: g=bbb4580d9d1d41a40726957705e07431
       Type: EventFieldToLog
       DataType: UInt16
       Value: 0
       Children:
       - Name: DynamicLink
+        Id: g=0c99bc45d80a6bbd4f1494730622ec72
         Type: DynamicLink
         DataType: NodePath
         Value: "../../EventArguments/Severity"
         Children:
         - Name: Mode
+          Id: g=549f46970e0d315d57db6978b55af633
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
     - Name: LocalTime
+      Id: g=ecd079cfeded1c479ce9aaf3544d42b1
       Type: EventFieldToLog
       DataType: DateTime
       Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: ExpressionEvaluator1
+        Id: g=985c9ebd7ce6977cfb821f19e665cc41
         Type: ExpressionEvaluator
         Children:
         - Name: Expression
+          Id: g=cea045c84453e469ff730df9bb8d2eed
           Type: BaseDataVariableType
           DataType: String
           ReferenceType: HasParameter
           Value: "{0} + {1}"
         - Name: ns=2;Source0
+          Id: g=223707296d13dffa6a5f81be8aec7d47
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
+            Id: g=3af0c4309fb027d20f89ab7c711db7c1
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/Time"
         - Name: ns=2;Source1
+          Id: g=12c70bfed0a4adc45fdadb120df80318
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
+            Id: g=81d368b37b1cd06056128d7c747e15e9
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/LocalTime"

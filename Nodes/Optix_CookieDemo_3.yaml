@@ -1,43 +1,54 @@
 Name: Optix_CookieDemo_3
+Id: g=0cfbe3ef4aae17408d389cd76edb2192
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=c82ed01b557eda34ebfe24643d4dbfdb
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=d075e7f09aae5061b3193d077e1a1681
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=afdef20a5a5448d7eb2c1dc6992324ef
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=3a1a0ee9011caddcfe4fe97213c3b9b3
   Type: PropertyGroup
 - Name: PasswordPolicy
+  Id: g=ac98cc52db3aaf10c45263cfca79c7c8
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=00bc2b70b4d814793b1feaaee3e8c500
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=d8ed809b6c07a9626ae3720d70f19d2e
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=7f341ff070573c68382bc9c0ea3d4388
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=51e55e078fe783e50e285160ca384efa
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=e20ceabd20fe3b454d86ae8d90619cca
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -55,11 +66,13 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: Recipe_mixer
+  Id: g=d3bc90c1ce07e2363b263ab1e4731e91
   Type: Alias
   DataType: NodeId
   Value: {"IdType":2,"Id":"5959b71f9864e540838d7e5b65e06854","Namespace":7}
   Children:
   - Name: Kind
+    Id: g=4523dda67ec70d4d67bceb48748c3869
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":2,"Id":"13f14072253b56ef008c261f11917928","Namespace":7}

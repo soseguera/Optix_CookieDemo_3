@@ -1,4 +1,5 @@
 Name: Packaging
+Id: g=4d977c28b766ce022e4b1f7b09985557
 Type: FolderType
 Children:
 - Name: Packaging_Temperature
@@ -8,11 +9,13 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=2716d5f90146f0678dff5925d16a0fa4
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Temperature"
     Children:
     - Name: Mode
+      Id: g=cfa0fdefff01ed786b2245225213e714
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -23,11 +26,13 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=503edfde8334954c9d1223b048f2efe3
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Pressure"
     Children:
     - Name: Mode
+      Id: g=649c135d0f1e3ff50071bec5353a462d
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -38,11 +43,13 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=10601257df0cf262577fa1b0270e7a85
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Vibration"
     Children:
     - Name: Mode
+      Id: g=e66b018db2a475289a83a342ae72957a
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -53,15 +60,18 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=bb475d66c0125c6e5439fa111a1e92b1
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Vibration_Override"
     Children:
     - Name: Mode
+      Id: g=9f765d5cd6447783a783c0123d0179c2
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: High_Limit_Condition
+  Id: g=d71f06fe531c49c08355446018e15703
   Type: BaseDataVariableType
   DataType: Float
   Value: 75.0
@@ -77,11 +87,13 @@ Children:
   Value: false
   Children:
   - Name: DynamicLink
+    Id: g=76877e121978947109f683b0f73a9add
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Running"
     Children:
     - Name: Mode
+      Id: g=6fdbd4c951f0023774d5f4ef0c91e214
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2

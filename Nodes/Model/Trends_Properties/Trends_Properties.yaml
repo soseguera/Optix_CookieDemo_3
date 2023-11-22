@@ -1,15 +1,19 @@
 Name: Trends_Properties
+Id: g=6667e130b401bb4a253bc6a42c1c6e52
 Type: FolderType
 Children:
 - Name: Follow_Trend_Status
+  Id: g=4af44205fe2591c77cc6790162cbc599
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
 - Name: Dynamic_Trend_Status
+  Id: g=84f58582f9aed5ac82e336d806b6512e
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
 - Name: Time_Window_Historical
+  Id: g=e9c6acdb71b2f3dadfea5c1bee12a8ef
   Type: BaseDataVariableType
   DataType: String
   Value: "00:05:00"
@@ -24,20 +28,24 @@ Children:
   DataType: Duration
   Value: "0:00:00:5.0000000"
 - Name: Start_Time_Trend
+  Id: g=86a6f1d942c99065bdc2fc976222192b
   Type: BaseDataVariableType
   DataType: DateTime
   Value: "1601-01-01T00:00:00.0000000"
 - Name: ChartTimeFrame
+  Id: g=65d6b7179124dc5dfe5de679c39b4f22
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0
   Children:
   - Name: DynamicLink
+    Id: g=72889cd285b5f4064cfb5935de402007
     Type: DynamicLink
     DataType: NodePath
     Value: "../ChartTimeFrame"
     Children:
     - Name: Mode
+      Id: g=ff4ce69391ab473d4f75d4a8037460cc
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2

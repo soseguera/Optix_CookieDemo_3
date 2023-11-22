@@ -8,6 +8,7 @@ Children:
   DataType: String
   Value: "192.168.50.215\\backplane\\1"
 - Name: StationStatusVariables
+  Id: g=970a71ba3457b6dd437334b9b96b38c3
   Type: PropertyGroup
   Children:
   - Name: ActiveDataItems
@@ -17,6 +18,7 @@ Children:
     AccessLevel: Read
     Value: 0
   - Name: ActivityCounter
+    Id: g=682b37d2ae3547e48cc302fbac52c8dc
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
@@ -28,21 +30,25 @@ Children:
     AccessLevel: Read
     Value: ""
   - Name: ControllerName
+    Id: g=ec908437ea3b9170f48ac741ab79ede4
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: FailedDataItems
+    Id: g=e4637f402bd03efb7980337a48719e4c
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MajorRev
+    Id: g=593320a96a2d6717afb000d605b45d6f
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MinorRev
+    Id: g=0d63fbb6498e59258286dad20789fd5e
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
@@ -54,26 +60,31 @@ Children:
     AccessLevel: Read
     Value: ""
   - Name: OptimizedBlocks
+    Id: g=193d0e97eb651beddf649c8d505edacd
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: Path
+    Id: g=cbf484d576ad0675811b3d37d9283182
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: Present
+    Id: g=5c52462fad70c64ee1b7c08292079712
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: ProductCode
+    Id: g=e53f18b9e04442d4c62aff656a616ba9
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: ProductType
+    Id: g=20ec3718e65f1069043d58b0b38e90a4
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
@@ -85,6 +96,7 @@ Children:
     AccessLevel: Read
     Value: false
   - Name: RecoverableMinorFaults
+    Id: g=71cb055441e68f6fd9d9cc8d79e8c430
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
@@ -96,31 +108,37 @@ Children:
     AccessLevel: Read
     Value: false
   - Name: Synchronized
+    Id: g=4b28154540eb54de1b3b368af48a833e
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: SyncState
+    Id: g=7c80105a5876b5513251a2c5154a971c
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: UnrecoverableMajorFaults
+    Id: g=cff6fadbf5ee1e6000c4331a137160a1
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: UnrecoverableMinorFaults
+    Id: g=c98462f48676557f90f20b8bc6867179
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: Vendor
+    Id: g=b6c334b0b5cac23307f3e18cdf4e82d1
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
 - Name: OperationCode
+  Id: g=3dfb163b0c14ee1b3549a103a03fc40d
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
@@ -145,11 +163,13 @@ Children:
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
+  Id: g=244aa317053d211e47ab490f0ebe8fd2
   Type: FolderType
   Children:
   - File: DataTypes/DataTypes.yaml
   - File: VariableTypes/VariableTypes.yaml
 - Name: Timeout
+  Id: g=5a4ff762a9f21e8643a15d60b4a2555b
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:00:3.0000000"

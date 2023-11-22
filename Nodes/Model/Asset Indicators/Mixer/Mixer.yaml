@@ -1,4 +1,5 @@
 Name: Mixer
+Id: g=6931aca8e9e94567b6eaee15b84fd3f2
 Type: FolderType
 Children:
 - Name: Mixer_Temperature
@@ -8,11 +9,13 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=70502d899b385e0be4d35a6bd25d35fb
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Temperature"
     Children:
     - Name: Mode
+      Id: g=b8950759dca1f5fe23d4b17fc1327163
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -23,11 +26,13 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=9496556c4f54b0b6e405c4388ec42658
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Pressure"
     Children:
     - Name: Mode
+      Id: g=49b5dd67ae518393e229fee1a2de48a6
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -38,11 +43,13 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=1d32e2a16408ce039c836ef0348997e5
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Vibration"
     Children:
     - Name: Mode
+      Id: g=c8935cb05907a0e39649bf6e5cefbd31
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -82,11 +89,13 @@ Children:
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=72d25bf6fddc3e92bf28c75b90ba3c4b
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Vibration_Override"
     Children:
     - Name: Mode
+      Id: g=b32e95cb9916bd2501d1e6cf7ae60e25
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
@@ -96,6 +105,7 @@ Children:
   DataType: Int32
   Value: 29832774
 - Name: High_Limit_Condition
+  Id: g=ef8e3ca0e669e298b8ec75ea7402424b
   Type: BaseDataVariableType
   DataType: Float
   Value: 75.0
@@ -106,11 +116,13 @@ Children:
   Value: false
   Children:
   - Name: DynamicLink
+    Id: g=caa3c1938a84b6c2bf4726db6fb2a60c
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Mixer_Running"
     Children:
     - Name: Mode
+      Id: g=5063595cdc2f6c107a1d7967964d586a
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
