@@ -1,39 +1,49 @@
 Name: NetLogic
+Id: g=e2b18adef0ffc4efe618023c5f9b53d9
 Type: NetLogicCategoryFolder
 Children:
 - Name: PublicLogic
+  Id: g=461112ad2c2e810729381fe6753de14a
   Type: NetLogic
   Children:
   - Name: Broker
+    Id: g=a1f8f053c37b35b00e704fabbd7a726e
     Type: BaseDataVariableType
     DataType: String
     Value: "e52163660ddf453cb4355b09a11a0678.s1.eu.hivemq.cloud"
   - Name: Port
+    Id: g=12f166fb2b29d02c2a0bab646e2a523b
     Type: BaseDataVariableType
     DataType: Int32
     Value: 8883
   - Name: Username
+    Id: g=e48570f9f2d23eeafb238605a4e3ecdf
     Type: BaseDataVariableType
     DataType: String
-    Value: "hivemq.webclient.1693586254057"
+    Value: "OptixBrokerHiveMQClient"
   - Name: Password
+    Id: g=63bfe00119015b39fff6dd1474920e46
     Type: BaseDataVariableType
     DataType: Password
-    SecretValue: e5sDqYTvAiLhrWCNOHSKOO9IxkpHJ3r26wCoPsGxP9gK9ai/xaPFnth3vJlvAV1g
+    SecretValue: jF5J5ScwliFTnyj7f8ASdl3wQtegZJOR28MWMojyvbkTaISuWX0=
   - Name: ClientID
+    Id: g=e2ed4b9c510018cf9c975ffcbed72031
     Type: BaseDataVariableType
     DataType: String
     Value: "FTOptix"
   - Name: Topic
+    Id: g=f8119d7a40e74dc3887876d967450d6e
     Type: BaseDataVariableType
     DataType: String
-    Value: "Test"
+    Value: "FTOptix"
   - Name: DataLogger
+    Id: g=c9ae383e1568ac1c69d421a96b27fbb9
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Optix_CookieDemo_3/Loggers/Data2MQTT"
     Children:
     - Name: Kind
+      Id: g=5db879d075e01d5547b8cd75c7e3265e
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -43,77 +53,95 @@ Children:
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: CSVPath
+    Id: g=3ae8cb99590bc57f165801f23f6a7ed2
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: ""
   - Name: FieldDelimiter
+    Id: g=b5f85cf706a5a980d350146cfb11c915
     Type: BaseDataVariableType
     DataType: String
     Value: ","
   - Name: Table
+    Id: g=6eacf7e2f6cfbd3bc09e8d77dea91d92
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Optix_CookieDemo_3/DataStores/SQL_SERVER/Tables/Data2MQTT"
     Children:
     - Name: Kind
+      Id: g=b5b5872fdb24d2893812b5b723ab1626
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Table"
     - Name: NodeClass
+      Id: g=b5456855e69d7ef65c5ecf3534642f9b
       Type: PropertyType
       DataType: NodePointerNodeClass
       Value: 0
   - Class: Method
     Name: Export
+    Id: g=35142d6340d6830d9340bd4cb2991122
   - Name: Query
+    Id: g=8c14bbe99d4badebd66619caed95c3ad
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
     Children:
     - Name: StringFormatter1
+      Id: g=18803dc2a69041d48104830dec61d2f2
       Type: StringFormatter
       Children:
       - Name: Format
+        Id: g=80952145f1746c5e1bd7a02e37b9584f
         Type: BaseDataVariableType
         DataType: LocalizedText
         ReferenceType: HasParameter
         Value: {"LocaleId":"en-US","Text":"SELECT * FROM {0:sql_identifier} WHERE Timestamp BETWEEN {1:sql_literal} AND {2:sql_literal}"}
       - Name: ns=2;Source0
+        Id: g=ee8daf4d422dd640fa6ccb4c1a918c5c
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=93a98f49d07915db3f42987701971d5c
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../Table@BrowseName"
       - Name: ns=2;Source1
+        Id: g=175c65e0e715035ba172b377a185a807
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=e45d9bd6213cc75b522c707249b64ecf
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../From"
       - Name: ns=2;Source2
+        Id: g=ddcf562151f801462cff3d1e878b79a7
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=889b7bdd81131ebf43e7f26fef5d51c5
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../To"
   - Name: From
+    Id: g=0b54f0dd76e5331662eef02aa0941b17
     Type: BaseDataVariableType
     DataType: DateTime
     Value: "2023-01-01T00:00:00.0000000"
   - Name: To
+    Id: g=83328a97cf6a7451b132a905781dda00
     Type: BaseDataVariableType
     DataType: DateTime
     Value: "2023-12-31T00:00:00.0000000"
   - Name: WrapFields
+    Id: g=4e87cd53c0a4b50d558e66ec3fb65da4
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false

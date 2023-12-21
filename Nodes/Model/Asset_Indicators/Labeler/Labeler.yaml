@@ -1,81 +1,99 @@
 Name: Labeler
+Id: g=5e22114c25714d605a66a649645f90ff
 Type: FolderType
 Children:
 - Name: Labeler_Temperature
+  Id: g=785c46ed3b56ac109b0cb3c58413dcbe
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=9539032d6f309a32f68a24eff6205e79
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Temperature"
     Children:
     - Name: Mode
+      Id: g=679cd77b6a50c22a5093d8ab9c4aeb14
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: Labeler_Pressure
+  Id: g=da637037be781326bf4bf9f81899986a
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=d4b1f48bef7b9d27b6c70b95d35a2f8d
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Pressure"
     Children:
     - Name: Mode
+      Id: g=591c9d10ad5492bd277d5fe960e8c5ee
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: Labeler_Vibration
+  Id: g=dc1960608af860b3c1711bd7d85caf0f
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=9dad2e692d117e790e12bf2c69ec1bc0
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Vibration"
     Children:
     - Name: Mode
+      Id: g=50db15c44c120b8de2de2ec3bfd1e8a5
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: Labeler_Pressure_Override
+  Id: g=7753fd4be26bbb7cff1b41ecd2e20bba
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
   Children:
   - Name: DynamicLink
+    Id: g=1fd3578c3065a62f5a9c16afdfa7d572
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Pressure_Override"
     Children:
     - Name: Mode
+      Id: g=8e798801830f93a64edfc40edd4dc739
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: High_Limit_Condition
+  Id: g=cbc74a4c1d59c49697a08ec092ff0d39
   Type: BaseDataVariableType
   DataType: Float
   Value: 40.0
 - Name: Asset_ID
+  Id: g=21badd14f064a41b5c65e23e6790d715
   Type: BaseDataVariableType
   DataType: Int32
   Value: 29721718
 - Name: Labeler_Running
+  Id: g=a5352e83a09b2b023e057c8f61a3dc70
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
   Children:
   - Name: DynamicLink
+    Id: g=9f38451f4b3c180c9d29812a43524e75
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Labeler_Running"
     Children:
     - Name: Mode
+      Id: g=1418ca2510ddfd1f42fb0e73cbdb86e3
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2

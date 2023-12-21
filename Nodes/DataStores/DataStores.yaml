@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=bdb16ad82260cffa1b921bc1120f9ad9
 Type: DataStoresCategoryFolder
 Children:
 - Name: EmbeddedDatabase1
@@ -6,66 +7,8 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=187ae22d9f6a817739a69bd21d8d84cb
     Type: BaseObjectType
-    Children:
-    - Name: AlarmsEventLogger1
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=25;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=25;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=25;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=25;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: ActiveState_Id
-          Type: StoreColumn
-          DataType: Boolean
-          Value: false
-        - Name: AckedState_Id
-          Type: StoreColumn
-          DataType: Boolean
-          Value: false
-        - Name: ConfirmedState_Id
-          Type: StoreColumn
-          DataType: Boolean
-          Value: false
-        - Name: ConditionName
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-        - Name: EnabledState_Id
-          Type: StoreColumn
-          DataType: Boolean
-          Value: false
-        - Name: SourceName
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-        - Name: Time
-          Type: StoreColumn
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: 'Message_en-US'
-          Type: StoreColumn
-          DataType: String
-          Value: ""
-        - Name: Severity
-          Type: StoreColumn
-          DataType: UInt16
-          Value: 0
-        - Name: LocalTime
-          Type: StoreColumn
-          DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
   - Class: Reference
     Target: ns=27;i=30
     Direction: Forward
@@ -73,16 +16,19 @@ Children:
     Target: ns=27;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=8eeb3ad294ef1b4156e7fb39f48652ab
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=f242ee93515e209415eee42da4068ac2
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=d6fe894a8abc197860dae7cb4b368b72
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -90,6 +36,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=2b41a5551a038bfbf9391b0a59b5fcdf
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -132,9 +79,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=3dc4bea4ee9c2eac753cd98a9361209c
     Type: BaseObjectType
     Children:
     - Name: Recipe_mixer
+      Id: g=d45228e1e85dbbea1730fc2152e0bec8
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -150,29 +99,36 @@ Children:
         Target: ns=25;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=87481a1249b5264638ab985538da11b0
         Type: BaseObjectType
         Children:
         - Name: Name
+          Id: g=68040cef3cb4ed9140027772d17f6753
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: /Flour
+          Id: g=f22cb737eb821bf7f2837a9523231339
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: /Water
+          Id: g=2a43d872a4a44a68a702de4bf0cd225f
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: /Sugar
+          Id: g=3e941bcd3e598a4073a3b36e7eed97a8
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: /Special Ingredient
+          Id: g=7b0e62d8e0de1473d97d8ddb8af9b124
           Type: StoreColumn
           DataType: String
           Value: ""
         - Name: /Mixing Time
+          Id: g=8fbd04c54e6d274e5734d30319198af1
           Type: StoreColumn
           DataType: Float
           Value: 0.0
@@ -183,16 +139,19 @@ Children:
     Target: ns=27;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=674043c10adfda1878374f89ba6cd100
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=d1c3c57a57db33548c227a22653f17dc
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=6a1676fe455337a0e60149114b16226f
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -200,6 +159,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=ca2c58a838dc9a7da6228f3a4644e36d
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -242,6 +202,7 @@ Children:
   Type: ODBCStore
   Children:
   - Name: Tables
+    Id: g=e015b4a9abffd16f4a25e7e1da96c94b
     Type: BaseObjectType
     Children:
     - Name: Data2MQTT
@@ -261,147 +222,263 @@ Children:
         Target: ns=25;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=3de80027aa60ae4b60381409233d76b8
         Type: BaseObjectType
         Children:
         - Name: LocalTimestamp
+          Id: g=304a873ea240bced49a34903f63271d3
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Mixer_Temperature
+          Id: g=07d836324aa60e9a8af9a8b84b8ef20d
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Mixer_Pressure
+          Id: g=d888bfcbab5f2fefa6fa2badcbfeb111
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Mixer_Vibration
+          Id: g=d6d7c43fa63b2eedaa568f1eda8ffce8
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Oven_Temperature
+          Id: g=7577eb102fb128957ca06f3e3ecea3fe
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Oven_Pressure
+          Id: g=7496cbf5700a84c31ed455cf1b9d78f7
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Oven_Vibration
+          Id: g=c624983aa3a5a58edc3ef99ef051e77d
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Packaging_Temperature
+          Id: g=3182764a912cac8b49ea1917669cea35
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Packaging_Pressure
+          Id: g=dd3f8201d9af0c65d3161c5674c61efd
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Packaging_Vibration
+          Id: g=3046f04616ee1d3afd8add1563afbfbc
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Labeler_Temperature
+          Id: g=275ffec24836d324d693c481e6e9bcb6
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Labeler_Pressure
+          Id: g=6e237afcca1b789861a2cebfa41c3c4e
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Labeler_Vibration
+          Id: g=fed8ec6bdf314e6b5044e97e71987ba2
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Mixer_High_Limit_Condition
+          Id: g=b4bea5973686d9487ca980490b8a7611
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Mixer_Asset_ID
+          Id: g=f2bd788e25d8650e8a12052668368f7e
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: Oven_High_Limit_Condition
+          Id: g=d74c520829a5328a6e2ea15f73c442aa
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Oven_Asset_ID
+          Id: g=8ece2cd2f803f364a1d969019ae24be2
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: Packaging_High_Limit_Condition
+          Id: g=3fdb9d37ddb388b19bd01c61da86b3f4
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Packaging_Asset_ID
+          Id: g=1ed120f3bcac279c1b09318e3b9e47db
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: Labeler_High_Limit_Condition
+          Id: g=5606dc1e19a4ae451ef11a9910ebd2d0
           Type: StoreColumn
           DataType: Float
           Value: 0.0
         - Name: Labeler_Asset_ID
+          Id: g=c7d152562763fca20f5df87193fd56a8
           Type: StoreColumn
           DataType: Int32
           Value: 0
         - Name: PLC_Connected
+          Id: g=89fb0fe3560277d96a7051d7efdb529d
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: PLC_Synchronized
+          Id: g=74d4efbbe16aff04a48080026a366074
           Type: StoreColumn
           DataType: Boolean
           Value: false
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: PLC_RunMode
+          Id: g=489d83e944639ce5f4d77450fb2595f0
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: Mixer_Running
+          Id: g=f25ac84a1d7dc3d1a727d436192bc10a
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: Oven_Running
+          Id: g=dd7e84484621eac6e3453f1ac7e60b7f
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: Packaging_Running
+          Id: g=1afe64741d8449fe6ba967ac01eb58b1
           Type: StoreColumn
           DataType: Boolean
           Value: false
         - Name: Labeler_Running
+          Id: g=8077f2f88425f4446ce57ea9c0427a52
           Type: StoreColumn
           DataType: Boolean
           Value: false
+        - Name: PLC_Asset_ID
+          Id: g=b8c53aff30493b7edb53455131b01925
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+      - Name: RecordLimit
+        Id: g=66c0f240b7d113449284a162aa848aed
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 5000
+    - Name: AlarmsEventLogger1
+      Id: g=605e8237f16c6f073e39e0ab7ac32382
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=25;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=25;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=dc21568318eb3e1ebee8d97ef3ebd413
+        Type: BaseObjectType
+        Children:
+        - Name: ActiveState_Id
+          Id: g=a26872f3b771e03ce6a2f0b5e73d13d1
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: AckedState_Id
+          Id: g=683490b7392c3fcb4bb7add69bcdade7
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConfirmedState_Id
+          Id: g=ecd8ab56974bfaba025e5e39fcc7c7f1
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConditionName
+          Id: g=2824167a6aadd1ef7e6b7309851b65b5
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EnabledState_Id
+          Id: g=a7433eb5d8a345bb15edb3135704580e
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: SourceName
+          Id: g=252f69640705a925a9d02804e0bbf9e4
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=c20a8fc63ad4f608b45509411bf6c2aa
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_en-US'
+          Id: g=be5c2634e0d7614a5bcc8d89f5ab77bd
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Severity
+          Id: g=cbfc39c941c3ae7a79733ecff0d4b69e
+          Type: StoreColumn
+          DataType: UInt16
+          Value: 0
+        - Name: LocalTime
+          Id: g=2ab9ba6c93b94dfa0f5b13c45e4957c8
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+      - Name: RecordLimit
+        Id: g=c31c4e737ede48f627b17a0e7241478a
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 500
   - Name: Type
+    Id: g=e2118cc3b328a897cd683f6b2978256c
     Type: PropertyType
     DataType: DBMSType
     Value: 2
   - Name: Username
+    Id: g=a01c511c798a124189799e0720880098
     Type: PropertyType
     DataType: String
     Value: "sa"
   - Name: Password
+    Id: g=86423c5f4ed20238d0cdc2402f32c937
     Type: PropertyType
     DataType: Password
-    SecretValue: BE+e8kIdsUc+CjhXjUpWBgau8qrfa9R7FRx2DIaEoajOh7e7AA==
+    SecretValue: VyHu0sIelGpKE+dQBEBUVtHyMWDQrwg2tgwTrUuPQGroGR9QMg==
   - Name: MaxColumnNameLength
+    Id: g=c49c518882dc8d3a9008fc95fb6ffe8f
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MaxColumnCount
+    Id: g=286d164773dacefb89ae1fd6329403d0
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: DataTypeCompatibilityMap
+    Id: g=019eb5aef198c08e3d78d8520c0e7be3
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
@@ -409,6 +486,7 @@ Children:
     ArrayDimensions: [0,0]
     Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
+    Id: g=9fad32b29738ef553e5b5ed30a0abb79
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -447,18 +525,22 @@ Children:
     Target: ns=25;i=59
     Direction: Forward
   - Name: Server
+    Id: g=57aa78cb1fa584703fe7271702ec8a79
     Type: PropertyType
     DataType: String
     Value: "192.168.50.10"
   - Name: Port
+    Id: g=a610797c2f010a3cdbf115ad2e181f7b
     Type: PropertyType
     DataType: UInt16
     Value: 1433
   - Name: Database
+    Id: g=c7a3718142d04d7d1587aea161f3772a
     Type: PropertyType
     DataType: String
     Value: "TEST"
   - Name: DSN
+    Id: g=36b8694b30739f92242cf7ef79fea1b1
     Type: PropertyType
     DataType: String
     Value: ""
