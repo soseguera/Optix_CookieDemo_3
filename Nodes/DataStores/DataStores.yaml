@@ -370,6 +370,11 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: Timestamp
+          Id: g=7673c827516b4452333a70fb571b3013
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
       - Name: RecordLimit
         Id: g=66c0f240b7d113449284a162aa848aed
         Type: BaseDataVariableType
