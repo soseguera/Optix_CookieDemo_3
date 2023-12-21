@@ -2,7 +2,6 @@ Name: Mixer
 Type: FolderType
 Children:
 - Name: Mixer_Temperature
-  Id: g=8ec461f5ad2b113bf541fcfc2c85247f
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -17,7 +16,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Mixer_Pressure
-  Id: g=eac28a746827d387031bf51ee9dbb8d2
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -32,7 +30,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Mixer_Vibration
-  Id: g=1deea47ea985fae3a49711f3c0429174
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -51,32 +48,26 @@ Children:
   Type: BaseObjectType
   Children:
   - Name: Flour
-    Id: g=af7520cdd6f77e19cc0dcffba04bcce3
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Water
-    Id: g=2f91110af58288e0e22b7955abd5b57e
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Sugar
-    Id: g=e711e6ae90110c0632d3240b1d82442b
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Special Ingredient
-    Id: g=69c2febbd4ea39729052b7da9ef115ab
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
   - Name: Mixing Time
-    Id: g=4cc6bc5edf25ee3e557756dfabaa78da
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
 - Name: Mixer_Vibration_Override
-  Id: g=6f325a5e9f1d9f20456e3dfc126d8ee4
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -91,7 +82,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Asset_ID
-  Id: g=e1903dd25ce2a5ea5bb543aa365f0c99
   Type: BaseDataVariableType
   DataType: Int32
   Value: 29832774
@@ -100,7 +90,6 @@ Children:
   DataType: Float
   Value: 75.0
 - Name: Mixer_Running
-  Id: g=26d07160578d17dec95f29d71d309a8e
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false

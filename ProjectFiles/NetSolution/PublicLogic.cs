@@ -28,6 +28,7 @@ using FTOptix.Recipe;
 using Newtonsoft.Json.Linq;
 using System.Linq;
 using FTOptix.WebUI;
+using FTOptix.MicroController;
 
 public class PublicLogic : BaseNetLogic
 {

@@ -14,12 +14,10 @@ Children:
   DataType: String
   Value: "00:05:00"
 - Name: Auto_Refresh_Time
-  Id: g=4de42345cc784d59c064fe7ea050d1f4
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:00:1.0000000"
 - Name: Sampling_Period_Value
-  Id: g=74ff4c71512a6ca68ae94c74bb1a2664
   Type: BaseDataVariableType
   DataType: Duration
   Value: "0:00:00:1.0000000"

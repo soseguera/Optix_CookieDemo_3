@@ -1,6 +1,6 @@
 Name: Model
 Type: ModelCategoryFolder
 Children:
-- File: Asset Indicators/Asset Indicators.yaml
+- File: Asset_Indicators/Asset_Indicators.yaml
 - File: Settings/Settings.yaml
 - File: Trends_Properties/Trends_Properties.yaml

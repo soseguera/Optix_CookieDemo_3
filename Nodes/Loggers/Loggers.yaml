@@ -12,12 +12,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"b84eeb62f7d1e3caae9ce4d4dc3bbb85","Namespace":7}
+    Value: "/Objects/Optix_CookieDemo_3/DataStores/SQL_SERVER"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":25}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
@@ -26,7 +26,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=522d11202ebfae475a54d71fa92188ac
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -81,7 +80,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=698c1031be9ee58015b17e36a227f4b2
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -109,7 +107,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=43b259146c5cf935e1c7c55e979501cf
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -299,7 +296,6 @@ Children:
       DataType: BaseDataType
       Children:
       - Name: LastValue
-        Id: g=5e172726a51a89ab3b03f3e2cf1b418f
         Type: PropertyType
         DataType: BaseDataType
         AccessLevel: Read
@@ -791,12 +787,12 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"ea5c4f0e66ed79f9d5e8c11e40d0b85f","Namespace":7}
+    Value: "/Objects/Optix_CookieDemo_3/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":25}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
@@ -858,12 +854,12 @@ Children:
         Type: NodePointer
         DataType: NodeId
         ReferenceType: HasProperty
-        Value: {"Id":2915}
+        Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2041}
+          Value: "/Types/EventTypes/BaseEventType"
         - Name: NodeClass
           Type: PropertyType
           DataType: NodePointerNodeClass
@@ -914,16 +910,6 @@ Children:
     - Name: LocalTime
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
-      Value: 
-       {
-        "TypeId": {
-         "Id": 8912
-        },
-        "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
-        }
-       }
   - Name: EventFieldsToLog
     Type: BaseObjectType
     Children:

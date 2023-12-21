@@ -14,6 +14,7 @@ using FTOptix.Alarm;
 using FTOptix.EventLogger;
 using FTOptix.ODBCStore;
 using FTOptix.WebUI;
+using FTOptix.MicroController;
 
 public class FilesystemBrowserDatagridLogic : BaseNetLogic {
     public override void Start() {

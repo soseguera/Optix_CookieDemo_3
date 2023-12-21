@@ -31,7 +31,7 @@ Children:
   - Name: DataLogger
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"293d18d2c0ebdf7414940401b0801aae","Namespace":7}
+    Value: "/Objects/Optix_CookieDemo_3/Loggers/Data2MQTT"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -43,7 +43,6 @@ Children:
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: CSVPath
-    Id: g=3ae8cb99590bc57f165801f23f6a7ed2
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: ""
@@ -54,12 +53,12 @@ Children:
   - Name: Table
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"006dbacdbd014e67f76054b305b41b26","Namespace":7}
+    Value: "/Objects/Optix_CookieDemo_3/DataStores/SQL_SERVER/Tables/Data2MQTT"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":3,"Namespace":25}
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
@@ -107,12 +106,10 @@ Children:
           DataType: NodePath
           Value: "../../../To"
   - Name: From
-    Id: g=0b54f0dd76e5331662eef02aa0941b17
     Type: BaseDataVariableType
     DataType: DateTime
     Value: "2023-01-01T00:00:00.0000000"
   - Name: To
-    Id: g=83328a97cf6a7451b132a905781dda00
     Type: BaseDataVariableType
     DataType: DateTime
     Value: "2023-12-31T00:00:00.0000000"

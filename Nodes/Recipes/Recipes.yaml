@@ -67,16 +67,16 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"fa563d528e252aa68c1fed6dc7f9e0fe","Namespace":7}
+    Value: "/Objects/Optix_CookieDemo_3/DataStores/Recipes_database"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":25}
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: TargetNode
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"158bd825d9d8cd51b217a8dffccce39a","Namespace":7}
+    Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer"
     Children:
     - Name: Kind
       Type: PropertyType

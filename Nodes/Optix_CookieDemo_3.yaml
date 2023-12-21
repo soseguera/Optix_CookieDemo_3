@@ -5,14 +5,14 @@ Children:
   Type: PropertyGroup
   Children:
   - Name: Locales
-    Type: PropertyType
-    DataType: String
+    Type: BaseDataVariableType
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
-    Type: PropertyType
-    DataType: String
+    Type: BaseDataVariableType
+    DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
@@ -22,19 +22,19 @@ Children:
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
-    Type: PropertyType
+    Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
@@ -62,4 +62,4 @@ Children:
   - Name: Kind
     Type: PropertyType
     DataType: NodeId
-    Value: {"IdType":2,"Id":"13f14072253b56ef008c261f11917928","Namespace":7}
+    Value: "/Objects/Optix_CookieDemo_3/Recipes/Recipe_mixer/EditModel"

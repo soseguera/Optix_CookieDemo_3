@@ -2,7 +2,6 @@ Name: Settings
 Type: FolderType
 Children:
 - Name: FolderPath
-  Id: g=751172bba464bd00a894da4c852e49dd
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
   Value: "%PROJECTDIR%\\CSV"
@@ -29,7 +28,6 @@ Children:
   DataType: String
   Value: "SELECT * FROM \"DataLogger1\" limit 20"
 - Name: Tip_Value
-  Id: g=d50f3fc3786bce479de88c0b90027a87
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false

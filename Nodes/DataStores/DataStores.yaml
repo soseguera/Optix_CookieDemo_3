@@ -88,7 +88,7 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -198,7 +198,7 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -407,9 +407,8 @@ Children:
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
-    Id: g=9fad32b29738ef553e5b5ed30a0abb79
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -448,7 +447,6 @@ Children:
     Target: ns=25;i=59
     Direction: Forward
   - Name: Server
-    Id: g=57aa78cb1fa584703fe7271702ec8a79
     Type: PropertyType
     DataType: String
     Value: "192.168.50.10"
@@ -457,7 +455,6 @@ Children:
     DataType: UInt16
     Value: 1433
   - Name: Database
-    Id: g=c7a3718142d04d7d1587aea161f3772a
     Type: PropertyType
     DataType: String
     Value: "TEST"

@@ -306,7 +306,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=3a1caf03-d3e7-19bd-6b6d-c1e9394e9a47}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Oven_Pressure"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -423,7 +423,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=d18edfaf-0b4d-5522-fad7-7e15e8e97653}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Oven_Vibration"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -563,7 +563,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=8d306268-8c29-f05a-7318-12ee38d0991b}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Oven_Temperature"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -654,7 +654,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=d50f3fc3-786b-ce47-9de8-8c0b90027a87}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Settings/Tip_Value"
         - Name: LabelVisible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -686,7 +686,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=1b020570-b0a7-462e-1d2b-ba532300d376}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Oven_Temperature_Override"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -799,7 +799,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=9453aed1-d47a-12d9-e13c-e975d30c8458}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Asset_ID"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -1343,7 +1343,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=8ec461f5-ad2b-113b-f541-fcfc2c85247f}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Temperature"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -1450,7 +1450,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=eac28a74-6827-d387-031b-f51ee9dbb8d2}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Pressure"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -1613,7 +1613,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=6f325a5e-9f1d-9f20-456e-3dfc126d8ee4}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Vibration_Override"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -1646,7 +1646,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=e1903dd2-5ce2-a5ea-5bb5-43aa365f0c99}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Asset_ID"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -1722,7 +1722,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=1deea47e-a985-fae3-a497-11f3c0429174}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Vibration"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -1828,7 +1828,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=d50f3fc3-786b-ce47-9de8-8c0b90027a87}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Settings/Tip_Value"
         - Name: LabelVisible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -1879,7 +1879,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=7;g=26d07160-578d-17de-c95f-29d71d309a8e}"
+                Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Running"
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Boolean
@@ -2352,7 +2352,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=785c46ed-3b56-ac10-9b0c-b3c58413dcbe}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Labeler_Temperature"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -2502,7 +2502,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=dc196060-8af8-60b3-c171-1bd7d85caf0f}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Labeler_Vibration"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -2624,7 +2624,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=7753fd4b-e26b-bb7c-ff1b-41ecd2e20bba}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Labeler_Pressure_Override"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -2675,7 +2675,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=21badd14-f064-a41b-5c65-e23e6790d715}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Asset_ID"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -2751,7 +2751,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=da637037-be78-1326-bf4b-f9f81899986a}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Labeler_Pressure"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -2827,7 +2827,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=d50f3fc3-786b-ce47-9de8-8c0b90027a87}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Settings/Tip_Value"
         - Name: LabelVisible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -3341,7 +3341,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=d50f3fc3-786b-ce47-9de8-8c0b90027a87}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Settings/Tip_Value"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -3407,7 +3407,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=cd9f240e-5904-bb59-f88e-aee0dc966923}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Temperature"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3529,7 +3529,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=8e73ecf8-4f92-fd2c-1055-c9f48b6c2649}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Pressure"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3674,7 +3674,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=15cfe3b9-53d3-3af6-1530-1dd0314784d6}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Vibration_Override"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3707,7 +3707,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=1be0088a-1338-5882-74d5-e81b037fef11}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Asset_ID"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3783,7 +3783,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=9a93c96d-745d-53b2-9bf8-461b27523651}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Vibration"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3859,7 +3859,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=d50f3fc3-786b-ce47-9de8-8c0b90027a87}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Settings/Tip_Value"
         - Name: LabelVisible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -3900,7 +3900,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=7;g=430d3a44-7669-a57e-d898-b2d2a99e65a7}"
+                Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Running"
             - Name: TrueValue
               Type: BaseDataVariableType
               DataType: Boolean
@@ -4506,7 +4506,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: CurrentDisplayedAlarmIndex
           Type: BaseDataVariableType
           DataType: Int32
@@ -4557,7 +4557,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -4572,7 +4572,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -4678,7 +4678,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -4693,7 +4693,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -4960,7 +4960,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: CurrentDisplayedAlarmIndex
           Type: BaseDataVariableType
           DataType: Int32
@@ -5011,7 +5011,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -5026,7 +5026,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -5132,7 +5132,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -5147,7 +5147,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -5277,7 +5277,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -5292,7 +5292,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -5386,7 +5386,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -5396,12 +5396,12 @@ Children:
               - Name: ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"Id":64,"Namespace":17}
+                Value: "/Objects/Commands/AlarmCommands"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -5480,7 +5480,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -5495,7 +5495,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -5589,7 +5589,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":3}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -5599,12 +5599,12 @@ Children:
               - Name: ObjectPointer
                 Type: NodePointer
                 DataType: NodeId
-                Value: {"Id":64,"Namespace":17}
+                Value: "/Objects/Commands/AlarmCommands"
                 Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -5665,7 +5665,7 @@ Children:
           - Name: ItemKind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
@@ -5673,7 +5673,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=17;i=45}@Pointer"
+            Value: "/Objects/RetainedAlarms/LocalizedAlarms@Pointer"
         - Name: Query
           Type: BaseDataVariableType
           DataType: String
@@ -6080,7 +6080,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6099,7 +6099,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":2915}
+            Value: "/Types/EventTypes/BaseEventType/ConditionType/AcknowledgeableConditionType/AlarmConditionType"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -6690,12 +6690,12 @@ Children:
       - Name: AlarmEventsLogger
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":2,"Id":"d9b4eee1f3f53db4d2e5880332edd28f","Namespace":7}
+        Value: "/Objects/Optix_CookieDemo_3/Loggers/AlarmsEventLogger1"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":1,"Namespace":13}
+          Value: "/Types/ObjectTypes/BaseObjectType/EventLogger"
       - Name: SortOrder
         Type: BaseDataVariableType
         DataType: SortOrderEnum
@@ -6783,7 +6783,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"ea5c4f0e66ed79f9d5e8c11e40d0b85f","Namespace":7}
+        Value: "/Objects/Optix_CookieDemo_3/DataStores/EmbeddedDatabase1"
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -7323,7 +7323,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=4de42345-cc78-4d59-c064-fe7ea050d1f4}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Trends_Properties/Auto_Refresh_Time"
     - Name: Button1
       Type: Button
       Children:
@@ -7348,7 +7348,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -7363,7 +7363,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -7424,7 +7424,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=4de42345-cc78-4d59-c064-fe7ea050d1f4}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Trends_Properties/Auto_Refresh_Time"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -7488,7 +7488,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -7498,12 +7498,12 @@ Children:
             - Name: ns=2;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"Id":121,"Namespace":3}
+              Value: "/Objects/Commands/UICommands"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=2;Method
               Type: BaseDataVariableType
               DataType: String
@@ -7515,11 +7515,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
-                Value: {"IdType":2,"Id":"723f2c9ab4419b25ff6630d2812d6a1e","Namespace":7}
+                Value: "/Objects/Optix_CookieDemo_3/UI/Screens/ExportCSVFile"
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":3,"TextId":"OpenDialogAliasNodeDescription"}
+                ValueRank: ScalarOrOneDimension
                 Value: {"IdType":0,"Id":0,"Namespace":-1}
               - Name: ParentItem
                 Type: BaseDataVariableType
@@ -7626,7 +7627,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=74ff4c71-512a-6ca6-8ae9-4c74bb1a2664}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Trends_Properties/Sampling_Period_Value"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -7682,7 +7683,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=3ae8cb99-590b-c57f-1658-01f23f6a7ed2}"
+          Value: "/Objects/Optix_CookieDemo_3/NetLogic/DataLoggerExporter/CSVPath"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -7830,12 +7831,12 @@ Children:
       - Name: RecipeSchema
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"9d3653c8112a5664b389b8a79897e148","Namespace":7}
+        Value: "/Objects/Optix_CookieDemo_3/Recipes/Recipe_mixer"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":2,"Namespace":29}
+          Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
       - Name: CSVFile
         Type: BaseDataVariableType
         DataType: AbsoluteResourceUri
@@ -7909,7 +7910,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -7924,7 +7925,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8038,7 +8039,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -8053,7 +8054,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8152,7 +8153,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -8167,7 +8168,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8266,7 +8267,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -8281,7 +8282,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8362,7 +8363,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -8377,7 +8378,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8458,7 +8459,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -8473,7 +8474,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8572,7 +8573,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -8587,7 +8588,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8701,7 +8702,7 @@ Children:
           - Name: ListenEventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":108,"Namespace":2}
+            Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
           - Name: MethodsToCall
             Type: BaseObjectType
             Children:
@@ -8716,7 +8717,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
@@ -8844,7 +8845,7 @@ Children:
         - Name: Model
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"fa563d528e252aa68c1fed6dc7f9e0fe","Namespace":7}
+          Value: "/Objects/Optix_CookieDemo_3/DataStores/Recipes_database"
           Children:
           - Name: ItemKind
             Type: PropertyType
@@ -9021,7 +9022,7 @@ Children:
                 - Name: Kind
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":71,"Namespace":3}
+                  Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
                 - Name: NodeClass
                   Type: PropertyType
                   DataType: NodePointerNodeClass
@@ -9116,7 +9117,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{NodeId:ns=7;g=af7520cd-d6f7-7e19-cc0d-cffba04bcce3}"
+                  Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer/Flour"
               - Name: VerticalAlignment
                 Type: BaseVariableType
                 DataType: VerticalAlignment
@@ -9232,7 +9233,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{NodeId:ns=7;g=2f91110a-f582-88e0-e22b-7955abd5b57e}"
+                  Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer/Water"
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -9358,7 +9359,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{NodeId:ns=7;g=e711e6ae-9011-0c06-32d3-240b1d82442b}"
+                  Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer/Sugar"
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -9504,7 +9505,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{NodeId:ns=7;g=69c2febb-d4ea-3972-9052-b7da9ef115ab}"
+                  Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer/Special Ingredient"
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -9645,7 +9646,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{NodeId:ns=7;g=4cc6bc5e-df25-ee3e-5577-56dfabaa78da}"
+                  Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer/Mixing Time"
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -9742,7 +9743,7 @@ Children:
       - Name: RecipeSchema
         Type: BaseDataVariableType
         DataType: NodeId
-        Value: {"IdType":2,"Id":"9d3653c8112a5664b389b8a79897e148","Namespace":7}
+        Value: "/Objects/Optix_CookieDemo_3/Recipes/Recipe_mixer"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -9804,7 +9805,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -9819,7 +9820,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -9867,7 +9868,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -9951,7 +9952,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -9966,7 +9967,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -10010,7 +10011,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -10094,7 +10095,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -10109,7 +10110,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -10200,7 +10201,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -10215,7 +10216,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -10377,7 +10378,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=522d1120-2ebf-ae47-5a54-d71fa92188ac}"
+            Value: "/Objects/Optix_CookieDemo_3/Loggers/Data2MQTT/VariablesToLog/Mixer_Temperature/LastValue"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -10389,6 +10390,8 @@ Children:
             DataType: Color
             ModellingRule: Optional
             Value: "#ff0000"
+          - Name: Thresholds
+            Type: BaseObjectType
         - Name: Oven Temperature
           Type: TrendPen
           DataType: BaseDataType
@@ -10404,7 +10407,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=43b25914-6c5c-f935-e1c7-c55e979501cf}"
+            Value: "/Objects/Optix_CookieDemo_3/Loggers/Data2MQTT/VariablesToLog/Oven_Temperature/LastValue"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -10416,6 +10419,8 @@ Children:
             DataType: Color
             ModellingRule: Optional
             Value: "#008000"
+          - Name: Thresholds
+            Type: BaseObjectType
         - Name: Mixer Vibration
           Type: TrendPen
           DataType: BaseDataType
@@ -10431,7 +10436,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=698c1031-be9e-e580-15b1-7e36a227f4b2}"
+            Value: "/Objects/Optix_CookieDemo_3/Loggers/Data2MQTT/VariablesToLog/Mixer_Vibration/LastValue"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -10443,6 +10448,8 @@ Children:
             DataType: Color
             ModellingRule: Optional
             Value: "#0000ff"
+          - Name: Thresholds
+            Type: BaseObjectType
         - Name: Labeler Pressure
           Type: TrendPen
           DataType: BaseDataType
@@ -10458,7 +10465,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=5e172726-a51a-89ab-3b03-f3e2cf1b418f}"
+            Value: "/Objects/Optix_CookieDemo_3/Loggers/Data2MQTT/VariablesToLog/Labeler_Pressure/LastValue"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -10470,6 +10477,8 @@ Children:
             DataType: Color
             ModellingRule: Optional
             Value: "#ffa500"
+          - Name: Thresholds
+            Type: BaseObjectType
       - Class: Reference
         Target: ns=3;i=1129
         Direction: Forward
@@ -10492,6 +10501,11 @@ Children:
           Type: BaseDataVariableType
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: SnapPosition
+          Type: BaseDataVariableType
+          DataType: SnapPositionEnum
+          ModellingRule: Optional
+          Value: 1
       - Name: YAxis
         Type: ValueAxis
         Children:
@@ -10511,6 +10525,10 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
+        - Name: Position
+          Type: BaseDataVariableType
+          DataType: HorizontalPositionEnum
+          Value: 0
       - Name: LegendVisible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -10545,6 +10563,14 @@ Children:
         DataType: UInt32
         ModellingRule: Optional
         Value: 1000
+      - Class: Reference
+        Target: ns=3;i=1201
+        Direction: Forward
+      - Name: TimeRanges
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=3;i=1209
+        Direction: Forward
     - Name: Label4
       Type: Label
       Children:
@@ -10681,7 +10707,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":3}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: NodeClass
           Type: PropertyType
           DataType: NodePointerNodeClass
@@ -10872,7 +10898,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=6f325a5e-9f1d-9f20-456e-3dfc126d8ee4}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Vibration_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -10943,7 +10969,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=15cfe3b9-53d3-3af6-1530-1dd0314784d6}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Vibration_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11012,7 +11038,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=1b020570-b0a7-462e-1d2b-ba532300d376}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Oven_Temperature_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11045,7 +11071,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=7753fd4b-e26b-bb7c-ff1b-41ecd2e20bba}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Labeler_Pressure_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11114,7 +11140,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=1b020570-b0a7-462e-1d2b-ba532300d376}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Oven_Temperature_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11265,7 +11291,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=6f325a5e-9f1d-9f20-456e-3dfc126d8ee4}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Vibration_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11386,7 +11412,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=15cfe3b9-53d3-3af6-1530-1dd0314784d6}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Vibration_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11507,7 +11533,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=7753fd4b-e26b-bb7c-ff1b-41ecd2e20bba}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Labeler_Pressure_Override"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11628,7 +11654,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=26d07160-578d-17de-c95f-29d71d309a8e}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer_Running"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11689,7 +11715,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=430d3a44-7669-a57e-d898-b2d2a99e65a7}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Packaging/Packaging_Running"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11778,7 +11804,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=752895e5-74a6-6a79-77c1-ab0c5ca97091}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Oven/Oven_Running"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11839,7 +11865,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=a5352e83-a09b-2b02-3e05-7c8f61a3dc70}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Labeler/Labeler_Running"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -11913,7 +11939,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=66c015f3-d7bb-a301-9a80-a79a7eb4c411}"
+            Value: "/Objects/Optix_CookieDemo_3/CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Route"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -11964,7 +11990,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=843de1b8-3d1c-ee7e-6006-71d580f1c290}"
+            Value: "/Objects/Optix_CookieDemo_3/CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/ActiveDataItems"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -12015,7 +12041,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=1ec746ed-32ea-c730-53c0-d40ac63d84fd}"
+            Value: "/Objects/Optix_CookieDemo_3/CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/CatalogNumber"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -12066,7 +12092,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=ac125b36-584c-b244-2e0b-58ebae61d4bf}"
+            Value: "/Objects/Optix_CookieDemo_3/CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/Mode"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -12158,7 +12184,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=d00f03e2-4c4e-8401-bbab-632c87ff133b}"
+            Value: "/Objects/Optix_CookieDemo_3/CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/RecoverableMajorFaults"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -12254,7 +12280,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=37e038a0-4303-c91e-08ea-ffc71450df2f}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/PLC Diagnostics/PLC_Connected"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -12306,7 +12332,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=ed6a1af5-d203-5d9e-4b52-3a624716f970}"
+            Value: "/Objects/Optix_CookieDemo_3/CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/RunMode"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -12353,7 +12379,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=843eee84-32ff-f3ab-f898-25ebf989e25d}"
+            Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/PLC Diagnostics/PLC_Synchronized"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -12413,7 +12439,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=57aa78cb-1fa5-8470-3fe7-271702ec8a79}"
+            Value: "/Objects/Optix_CookieDemo_3/DataStores/SQL_SERVER/Server"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -12492,7 +12518,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=c7a37181-42d0-4d7d-1587-aea161f3772a}"
+            Value: "/Objects/Optix_CookieDemo_3/DataStores/SQL_SERVER/Database"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -12562,7 +12588,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=9fad32b2-9738-ef55-3e5b-5ed30a0abb79}"
+            Value: "/Objects/Optix_CookieDemo_3/DataStores/SQL_SERVER/Status"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -12907,12 +12933,12 @@ Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"f16747429711e086a968570c555807a5","Namespace":7}
+        Value: "/Objects/Optix_CookieDemo_3/UI/Screens/BrowseFile"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":3}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -12959,7 +12985,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{NodeId:ns=7;g=ecf55de0-0c7b-0534-84fd-c6d9c783a967}@Pointer"
+              Value: "/Objects/Optix_CookieDemo_3/UI/NativePresentationEngine/StyleSheet@Pointer"
           - Name: Pairs
             Type: BaseObjectType
             ModellingRule: None
@@ -13063,7 +13089,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -13078,7 +13104,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -13162,7 +13188,7 @@ Children:
         - Name: ListenEventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":3}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Type: BaseObjectType
           Children:
@@ -13172,12 +13198,12 @@ Children:
             - Name: ns=2;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"78a987cc9e56e3be69760ae5e06948f8","Namespace":7}
+              Value: "/Objects/Optix_CookieDemo_3/NetLogic/DataLoggerExporter"
               Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: ns=2;Method
               Type: BaseDataVariableType
               DataType: String
@@ -13193,7 +13219,7 @@ Children:
               - Name: Kind
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
@@ -13286,7 +13312,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=83328a97-cf6a-7451-b132-a905781dda00}"
+          Value: "/Objects/Optix_CookieDemo_3/NetLogic/DataLoggerExporter/To"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -13329,7 +13355,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=0b54f0dd-76e5-3316-62ee-f02aa0941b17}"
+          Value: "/Objects/Optix_CookieDemo_3/NetLogic/DataLoggerExporter/From"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -13418,7 +13444,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=3ae8cb99-590b-c57f-1658-01f23f6a7ed2}"
+          Value: "/Objects/Optix_CookieDemo_3/NetLogic/DataLoggerExporter/CSVPath"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -13568,7 +13594,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{NodeId:ns=7;g=ecf55de0-0c7b-0534-84fd-c6d9c783a967}@Pointer"
+            Value: "/Objects/Optix_CookieDemo_3/UI/NativePresentationEngine/StyleSheet@Pointer"
         - Name: Pairs
           Type: BaseObjectType
           Children:
@@ -13875,7 +13901,7 @@ Children:
           - Name: ItemKind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":2,"Id":"825822c59a441d454395f7432d13f837","Namespace":7}
+            Value: "/Objects/Optix_CookieDemo_3/UI/Screens/FileEntry"
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
@@ -14059,7 +14085,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":2,"Id":"825822c59a441d454395f7432d13f837","Namespace":7}
+            Value: "/Objects/Optix_CookieDemo_3/UI/Screens/FileEntry"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -14078,7 +14104,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":2,"Id":"825822c59a441d454395f7432d13f837","Namespace":7}
+            Value: "/Objects/Optix_CookieDemo_3/UI/Screens/FileEntry"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -14127,7 +14153,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=751172bb-a464-bd00-a894-da4c852e49dd}"
+          Value: "/Objects/Optix_CookieDemo_3/Model/Settings/FolderPath"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -14142,7 +14168,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "{NodeId:ns=7;g=3ae8cb99-590b-c57f-1658-01f23f6a7ed2}"
+          Value: "/Objects/Optix_CookieDemo_3/NetLogic/DataLoggerExporter/CSVPath"
           Children:
           - Name: Mode
             Type: BaseVariableType

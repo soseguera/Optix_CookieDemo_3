@@ -1,8 +1,7 @@
-Name: Oven
+Name: Packaging
 Type: FolderType
 Children:
-- Name: Oven_Temperature
-  Id: g=8d3062688c29f05a731812ee38d0991b
+- Name: Packaging_Temperature
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -10,14 +9,13 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Oven_Temperature"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Temperature"
     Children:
     - Name: Mode
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: Oven_Pressure
-  Id: g=3a1caf03d3e719bd6b6dc1e9394e9a47
+- Name: Packaging_Pressure
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -25,14 +23,13 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Oven_Pressure"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Pressure"
     Children:
     - Name: Mode
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: Oven_Vibration
-  Id: g=d18edfaf0b4d5522fad77e15e8e97653
+- Name: Packaging_Vibration
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -40,14 +37,13 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Oven_Vibration"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Vibration"
     Children:
     - Name: Mode
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- Name: Oven_Temperature_Override
-  Id: g=1b020570b0a7462e1d2bba532300d376
+- Name: Packaging_Vibration_Override
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -55,7 +51,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Oven_Temperature_Override"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Vibration_Override"
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -64,14 +60,12 @@ Children:
 - Name: High_Limit_Condition
   Type: BaseDataVariableType
   DataType: Float
-  Value: 190.0
+  Value: 75.0
 - Name: Asset_ID
-  Id: g=9453aed1d47a12d9e13ce975d30c8458
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 29721857
-- Name: Oven_Running
-  Id: g=752895e574a66a7977c1ab0c5ca97091
+  Value: 56203365
+- Name: Packaging_Running
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
@@ -79,7 +73,7 @@ Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Oven_Running"
+    Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Packaging_Running"
     Children:
     - Name: Mode
       Type: BaseVariableType

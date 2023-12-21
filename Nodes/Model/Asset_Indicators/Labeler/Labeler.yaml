@@ -2,7 +2,6 @@ Name: Labeler
 Type: FolderType
 Children:
 - Name: Labeler_Temperature
-  Id: g=785c46ed3b56ac109b0cb3c58413dcbe
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -17,7 +16,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Labeler_Pressure
-  Id: g=da637037be781326bf4bf9f81899986a
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -32,7 +30,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Labeler_Vibration
-  Id: g=dc1960608af860b3c1711bd7d85caf0f
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -47,7 +44,6 @@ Children:
       DataType: DynamicLinkMode
       Value: 2
 - Name: Labeler_Pressure_Override
-  Id: g=7753fd4be26bbb7cff1b41ecd2e20bba
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
@@ -66,12 +62,10 @@ Children:
   DataType: Float
   Value: 40.0
 - Name: Asset_ID
-  Id: g=21badd14f064a41b5c65e23e6790d715
   Type: BaseDataVariableType
   DataType: Int32
   Value: 29721718
 - Name: Labeler_Running
-  Id: g=a5352e83a09b2b023e057c8f61a3dc70
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
