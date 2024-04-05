@@ -1,38 +1,31 @@
 Name: CommDrivers
-Id: g=0d3e3255c3739b2b1d4ca44029b19537
 Type: CommDriversCategoryFolder
 Children:
 - Name: ChartTimeFrame
-  Id: g=959d0b1c24dd00094258f349baf1b1f5
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0
   Children:
   - Name: DynamicLink
-    Id: g=f3a19df4cb9c4e48deb16657fb1141b0
     Type: DynamicLink
     DataType: NodePath
     Value: "../ChartTimeFrame"
     Children:
     - Name: Mode
-      Id: g=2d15ae6d57b21bf258ac8fc62a4988a6
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: ChartTimeFrame1
-  Id: g=c070c690a7fcde0ae995431df9016965
   Type: BaseDataVariableType
   DataType: UInt32
   Value: 0
   Children:
   - Name: DynamicLink
-    Id: g=8a6d786fce32fcae9c5f965029d3cb25
     Type: DynamicLink
     DataType: NodePath
     Value: "../ChartTimeFrame"
     Children:
     - Name: Mode
-      Id: g=40398ff629d4dbdda60f965288d2209e
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2

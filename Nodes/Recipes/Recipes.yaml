@@ -1,5 +1,4 @@
 Name: Recipes
-Id: g=467f148131c1e8052e0645141ee6c27a
 Type: RecipesCategoryFolder
 Children:
 - Name: Recipe_mixer
@@ -7,31 +6,25 @@ Children:
   Type: RecipeSchema
   Children:
   - Name: Root
-    Id: g=e458b3cc602b1c52234638ca90a2fdf0
     Type: BaseObjectType
     Children:
     - Name: Flour
-      Id: g=a8ddbb9eca4aa112f0fb2d2caa17cf82
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Water
-      Id: g=453b23fb9a0b60ee36ff9c7ad1b7b30b
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Sugar
-      Id: g=4690982533dce814aa132b0ba93ee0b8
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Special Ingredient
-      Id: g=704ad0cb49f32ae88f44fc0e2b012028
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Mixing Time
-      Id: g=eeacab2f0df8720ab6f5d63edd59cf61
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
@@ -72,29 +65,24 @@ Children:
     Target: ns=29;i=60
     Direction: Forward
   - Name: Store
-    Id: g=364bdea4c531317951838d421f1bb544
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Optix_CookieDemo_3/DataStores/Recipes_database"
     Children:
     - Name: Kind
-      Id: g=92af48ae030880b4ee1d529b176b875c
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: TargetNode
-    Id: g=23e26e5165751ab7f37b3aa67c5dbf25
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Optix_CookieDemo_3/Model/Asset Indicators/Mixer/Mixer"
     Children:
     - Name: Kind
-      Id: g=6a09c60c20930aed49823ea086472661
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: TableName
-    Id: g=d9e3421c86e1edd099ba021d4cc55b10
     Type: BaseDataVariableType
     DataType: String
     Value: ""
@@ -103,27 +91,22 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: Flour
-      Id: g=492454e1474e746efef5bfe605238a56
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Water
-      Id: g=d29d6e1ea2a53f46e35ac5e8e53f7885
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Sugar
-      Id: g=4f025c6c3f291697b86b2d74b6c9ac48
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0
     - Name: Special Ingredient
-      Id: g=754759df596f3e7cb0ef2bb570104e3d
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Mixing Time
-      Id: g=e3d7f29c2be43ce03369aa3a242dcea4
       Type: BaseDataVariableType
       DataType: Float
       Value: 0.0

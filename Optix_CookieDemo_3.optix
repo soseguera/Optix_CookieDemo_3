@@ -139,23 +139,15 @@ Project:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.1
-  35:
-   Uri: 'urn:FTOptix:OPCUAServer'
-   Module: FTOptix.OPCUAServer
-   Version: 1.1
-  36:
-   Uri: 'urn:FTOptix:OPCUAServer:Net'
-   Module: FTOptix.OPCUAServer.Net
-   Version: 1.1
  Statistics:
-  TotalNodeCount: 4183
-  Objects: 720
-  ObjectTypes: 15
-  Variables: 3433
+  TotalNodeCount: 3830
+  Objects: 653
+  ObjectTypes: 12
+  Variables: 3151
   VariableTypes: 0
   DataTypes: 0
-  Methods: 15
-  References: 123
+  Methods: 14
+  References: 119
   ReferenceTypes: 0
   Files: 34
  Nodes:

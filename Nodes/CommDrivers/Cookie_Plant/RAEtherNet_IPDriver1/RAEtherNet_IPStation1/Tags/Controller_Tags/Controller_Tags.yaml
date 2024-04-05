@@ -1,235 +1,192 @@
 Name: Controller Tags
-Id: g=be867130a92ff28a386319a336b08795
 Type: FolderType
 Children:
-- Name: RANDOM_NUMBER
-  Id: g=e2768cc79c2c748fe37260898d18c885
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=1a75d6fd18f0431537dd146a9a582916
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "RANDOM_NUMBER"
-- Name: Mixer_Temperature
-  Id: g=bf638cb9a2cd44c8ce397e706491c555
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=2b68afb21fadf70122f6a20cb732e4bf
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Mixer_Temperature"
-- Name: Oven_Temperature
-  Id: g=66630a6c56d814f9265ca8e3f914478d
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=be9ab1ddc8fe2ff2a7c3a6e709bf3c7b
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Oven_Temperature"
-- Name: Packaging_Temperature
-  Id: g=a9e85bfb264315673d4364f5afca5cca
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=003a4e8c145f0f17472ee88a94de9fc3
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Packaging_Temperature"
-- Name: Labeler_Temperature
-  Id: g=94abf0d412032cc26f4a986c454f7bd9
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=a617e60889a83088df847abbfa00f346
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Labeler_Temperature"
-- Name: Mixer_Pressure
-  Id: g=f93520e68b6156275b28bfdb908be6a2
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=9ff0db21be77400fc46836fbcc62be8e
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Mixer_Pressure"
-- Name: Oven_Pressure
-  Id: g=3cc271f18dac8201b976fd32d57d3087
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=37a3a4106d2ce15a72573cecbe766920
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Oven_Pressure"
-- Name: Packaging_Pressure
-  Id: g=f1a5cbf197339e7ba177113113877db7
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=9b691a0a16270e2f2fbb4294da8abd25
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Packaging_Pressure"
 - Name: Labeler_Pressure
-  Id: g=068df6c7970b8d3fd63159db2777fc40
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
   Children:
   - Name: SymbolName
-    Id: g=3893c2e52c60b98a98a977f25df05dd3
     Type: BaseDataVariableType
     DataType: String
     Value: "Labeler_Pressure"
-- Name: Oven_Vibration
-  Id: g=1781f0027540407f881982d560e6aa72
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=a2223174063ff3c70e177b08be977ed2
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Oven_Vibration"
-- Name: Packaging_Vibration
-  Id: g=6c3a374197e2268f42a6c4bdcb11715e
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=ec86407d8e43d756b57aa4ff4f74e3ec
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Packaging_Vibration"
-- Name: Mixer_Vibration
-  Id: g=bc40ec534dad861b5e9804c154b48a63
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=23ec8892db4b691679b33c0998a269af
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Mixer_Vibration"
-- Name: Labeler_Vibration
-  Id: g=f59019a462e576d02135fa985a6af6e7
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=35a5071825ce1205bca14d6bf562ec85
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Labeler_Vibration"
-- Name: Oven_Temperature_Override
-  Id: g=8862221ee4f59938aeb8b4be3a71d764
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=0ffd198865d0c7b25d1447c273d0adb1
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Oven_Temperature_Override"
-- Name: Mixer_Vibration_Override
-  Id: g=3bda34855728143a5fe30e75875ecf96
-  Type: RAEtherNetIPTag
-  DataType: Float
-  Value: 0.0
-  Children:
-  - Name: SymbolName
-    Id: g=6de7b605ad8e7dd6103cc48f98048e41
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Mixer_Vibration_Override"
 - Name: Labeler_Pressure_Override
-  Id: g=0f04bbc5f3db6430c9909c1670f8d03e
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
   Children:
   - Name: SymbolName
-    Id: g=e7b8a0b4fc16d65f25cd56302d079e66
     Type: BaseDataVariableType
     DataType: String
     Value: "Labeler_Pressure_Override"
-- Name: Packaging_Vibration_Override
-  Id: g=ca52f733e248dd7c52b3d47873b32014
+- Name: Labeler_Running
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Labeler_Running"
+- Name: Labeler_Temperature
   Type: RAEtherNetIPTag
   DataType: Float
   Value: 0.0
   Children:
   - Name: SymbolName
-    Id: g=069f8be4fd0c3de382e66fca86be39ee
     Type: BaseDataVariableType
     DataType: String
-    Value: "Packaging_Vibration_Override"
-- Name: Labeler_Running
-  Id: g=e0f9a830c6783b7c2f262c78b03fd31e
+    Value: "Labeler_Temperature"
+- Name: Labeler_Vibration
   Type: RAEtherNetIPTag
-  DataType: Boolean
-  Value: false
+  DataType: Float
+  Value: 0.0
   Children:
   - Name: SymbolName
-    Id: g=c8286fe45cd51bda5be23a73f70692d8
     Type: BaseDataVariableType
     DataType: String
-    Value: "Labeler_Running"
+    Value: "Labeler_Vibration"
+- Name: Mixer_Pressure
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Mixer_Pressure"
 - Name: Mixer_Running
-  Id: g=9dbf1eed648a79267d4236663ddd2b61
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
   Children:
   - Name: SymbolName
-    Id: g=e2849e1773cb336eb443d85464bc3fef
     Type: BaseDataVariableType
     DataType: String
     Value: "Mixer_Running"
+- Name: Mixer_Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Mixer_Temperature"
+- Name: Mixer_Vibration
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Mixer_Vibration"
+- Name: Mixer_Vibration_Override
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Mixer_Vibration_Override"
+- Name: Oven_Pressure
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Oven_Pressure"
 - Name: Oven_Running
-  Id: g=7f20c5f6975deac61fde1aea56924e25
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
   Children:
   - Name: SymbolName
-    Id: g=9b7b5705b6447e7ffc1e3da82a838f04
     Type: BaseDataVariableType
     DataType: String
     Value: "Oven_Running"
+- Name: Oven_Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Oven_Temperature"
+- Name: Oven_Temperature_Override
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Oven_Temperature_Override"
+- Name: Oven_Vibration
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Oven_Vibration"
+- Name: Packaging_Pressure
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Packaging_Pressure"
 - Name: Packaging_Running
-  Id: g=0308539d2c571475a70f9c8197879930
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
   Children:
   - Name: SymbolName
-    Id: g=8ec5b5bd79f5286a515b80d0a178bfe4
     Type: BaseDataVariableType
     DataType: String
     Value: "Packaging_Running"
+- Name: Packaging_Temperature
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Packaging_Temperature"
+- Name: Packaging_Vibration
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Packaging_Vibration"
+- Name: Packaging_Vibration_Override
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Packaging_Vibration_Override"
+- Name: RANDOM_NUMBER
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RANDOM_NUMBER"

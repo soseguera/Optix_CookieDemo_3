@@ -1,60 +1,49 @@
 Name: PLC Diagnostics
-Id: g=6a6e81395486e2a7d5104470db628b5a
 Type: FolderType
 Children:
 - Name: PLC_Connected
-  Id: g=37e038a04303c91e08eaffc71450df2f
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
   Children:
   - Name: DynamicLink
-    Id: g=38242f06d16a65bd829f2e3f38074224
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/Present"
     Children:
     - Name: Mode
-      Id: g=a7bca2c627784c58cdf3704a77733d11
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: PLC_Synchronized
-  Id: g=843eee8432fff3abf89825ebf989e25d
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
   Children:
   - Name: DynamicLink
-    Id: g=54a3a4526bda3a5df03f323b83af81d2
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/Synchronized"
     Children:
     - Name: Mode
-      Id: g=162b0ff688c22c9819c72ec3722babaf
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: PLC_RunMode
-  Id: g=3bba6048500d0343072db9b8746fa541
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
   Children:
   - Name: DynamicLink
-    Id: g=d52b6fc6948e9b4d3e5033f805d369de
     Type: DynamicLink
     DataType: NodePath
     Value: "../../../../CommDrivers/Cookie Plant/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/StationStatusVariables/RunMode"
     Children:
     - Name: Mode
-      Id: g=b51f2fd620e17ea3d8f1d4d4965d0e92
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
 - Name: Asset_ID
-  Id: g=2db58457e3b0aab4e8143976ff117dab
   Type: BaseDataVariableType
   DataType: Int32
   Value: 56485511
