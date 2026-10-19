@@ -9976,7 +9976,7 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: Optional
-        Value: 1000
+        Value: 250
       - Class: Reference
         Target: ns=3;i=1201
         Direction: Forward
@@ -10315,7 +10315,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Mixer Vibration Override"}
+        Value: {"LocaleId":"en-US","Text":"Mixer Vibrations Override"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
