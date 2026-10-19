@@ -133,10 +133,10 @@ Project:
    Module: FTOptix.NativeUI.Net
    Version: 3.3
  Statistics:
-  TotalNodeCount: 3867
+  TotalNodeCount: 3868
   Objects: 662
   ObjectTypes: 12
-  Variables: 3179
+  Variables: 3180
   VariableTypes: 0
   DataTypes: 0
   Methods: 14
