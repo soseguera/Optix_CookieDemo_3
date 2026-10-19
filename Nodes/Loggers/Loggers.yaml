@@ -33,12 +33,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -60,12 +58,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -87,12 +83,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -114,12 +108,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -141,12 +133,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -168,12 +158,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -195,12 +183,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -222,12 +208,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -249,12 +233,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -276,12 +258,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -303,12 +283,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -330,12 +308,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -357,12 +333,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -384,12 +358,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -411,12 +383,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -438,12 +408,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -465,12 +433,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -492,12 +458,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -519,12 +483,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -546,12 +508,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -573,12 +533,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -600,12 +558,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -627,12 +583,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -654,12 +608,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -681,12 +633,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -708,12 +658,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -735,12 +683,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -762,12 +708,10 @@ Children:
         Type: PropertyType
         DataType: UtcTime
         AccessLevel: Read
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: LastOperationCode
         Type: PropertyType
         DataType: StatusCode
         AccessLevel: Read
-        Value: 0
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
@@ -787,7 +731,7 @@ Children:
   - Name: SamplingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:1.0000000"
+    Value: "0:00:00:01.0000000"
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -802,6 +746,10 @@ Children:
     Type: PropertyType
     DataType: String
     Value: "Data2MQTT"
+  - Name: PollingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:01.0000000"
 - Name: AlarmsEventLogger1
   Id: g=d9b4eee1f3f53db4d2e5880332edd28f
   Type: EventLogger
@@ -823,7 +771,6 @@ Children:
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
-      Value: 0
   - Name: EventFieldPaths
     Type: BaseObjectType
     Children:
@@ -876,7 +823,6 @@ Children:
       - Name: MonitorSubtree
         Type: PropertyType
         DataType: Boolean
-        Value: false
       - Name: EventType
         Type: NodePointer
         DataType: NodeId
@@ -897,43 +843,33 @@ Children:
     - Name: ActiveState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: AckedState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: ConfirmedState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: ConditionName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: EnabledState_Id
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: SourceName
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: Time
       Type: BaseDataVariableType
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: Message
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Severity
       Type: BaseDataVariableType
       DataType: UInt16
-      Value: 0
     - Name: EventTypeId
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: LocalTime
       Type: BaseDataVariableType
       DataType: TimeZoneDataType
@@ -943,7 +879,6 @@ Children:
     - Name: ActiveState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -957,7 +892,6 @@ Children:
     - Name: AckedState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -971,7 +905,6 @@ Children:
     - Name: ConfirmedState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -985,7 +918,6 @@ Children:
     - Name: ConditionName
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -999,7 +931,6 @@ Children:
     - Name: EnabledState_Id
       Type: EventFieldToLog
       DataType: Boolean
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -1013,7 +944,6 @@ Children:
     - Name: SourceName
       Type: EventFieldToLog
       DataType: String
-      Value: ""
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -1027,7 +957,6 @@ Children:
     - Name: Time
       Type: EventFieldToLog
       DataType: UtcTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -1041,7 +970,6 @@ Children:
     - Name: Message
       Type: EventFieldToLog
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -1055,7 +983,6 @@ Children:
     - Name: Severity
       Type: EventFieldToLog
       DataType: UInt16
-      Value: 0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -1069,7 +996,6 @@ Children:
     - Name: LocalTime
       Type: EventFieldToLog
       DataType: DateTime
-      Value: "1601-01-01T00:00:00.0000000"
       Children:
       - Name: ExpressionEvaluator1
         Type: ExpressionEvaluator

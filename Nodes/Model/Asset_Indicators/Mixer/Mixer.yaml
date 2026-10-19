@@ -4,7 +4,6 @@ Children:
 - Name: Mixer_Temperature
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -18,7 +17,6 @@ Children:
 - Name: Mixer_Pressure
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -32,7 +30,6 @@ Children:
 - Name: Mixer_Vibration
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -50,15 +47,12 @@ Children:
   - Name: Flour
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: Water
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: Sugar
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: Special Ingredient
     Type: BaseDataVariableType
     DataType: String
@@ -66,11 +60,9 @@ Children:
   - Name: Mixing Time
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
 - Name: Mixer_Vibration_Override
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -92,7 +84,6 @@ Children:
 - Name: Mixer_Running
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink

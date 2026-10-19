@@ -24,7 +24,6 @@ Children:
   - Name: MaximumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: EnforcePasswordHistory
     Type: BaseDataVariableType
     DataType: Byte
@@ -32,7 +31,6 @@ Children:
   - Name: MinimumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MinimumPasswordLength
     Type: BaseDataVariableType
     DataType: Byte
@@ -63,3 +61,6 @@ Children:
     Type: PropertyType
     DataType: NodeId
     Value: "/Objects/Optix_CookieDemo_3/Recipes/Recipe_mixer/EditModel"
+- Name: RuntimeOptimization
+  Type: PropertyGroup
+- File: HighAvailability/HighAvailability.yaml

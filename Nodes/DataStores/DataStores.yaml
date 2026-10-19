@@ -30,123 +30,93 @@ Children:
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Mixer_Temperature
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Mixer_Pressure
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Mixer_Vibration
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Oven_Temperature
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Oven_Pressure
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Oven_Vibration
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Packaging_Temperature
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Packaging_Pressure
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Packaging_Vibration
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Labeler_Temperature
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Labeler_Pressure
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Labeler_Vibration
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Mixer_High_Limit_Condition
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Mixer_Asset_ID
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: Oven_High_Limit_Condition
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Oven_Asset_ID
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: Packaging_High_Limit_Condition
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Packaging_Asset_ID
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: Labeler_High_Limit_Condition
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: Labeler_Asset_ID
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: PLC_Connected
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: PLC_Synchronized
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: PLC_RunMode
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: Mixer_Running
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: Oven_Running
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: Packaging_Running
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: Labeler_Running
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: PLC_Asset_ID
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
     - Name: AlarmsEventLogger1
       Type: SQLiteStoreTable
       Children:
@@ -168,43 +138,33 @@ Children:
         - Name: ActiveState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: AckedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConfirmedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConditionName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EnabledState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: SourceName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Severity
           Type: StoreColumn
           DataType: UInt16
-          Value: 0
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
   - Class: Reference
     Target: ns=27;i=30
     Direction: Forward
@@ -215,19 +175,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -265,6 +222,9 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=25;i=59
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=67
     Direction: Forward
 - Name: Recipes_database
   Id: g=fa563d528e252aa68c1fed6dc7f9e0fe
@@ -294,27 +254,21 @@ Children:
         - Name: Name
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /Flour
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /Water
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /Sugar
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /Special Ingredient
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /Mixing Time
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
   - Class: Reference
     Target: ns=27;i=30
     Direction: Forward
@@ -325,19 +279,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -376,6 +327,9 @@ Children:
   - Class: Reference
     Target: ns=25;i=59
     Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=67
+    Direction: Forward
 - Name: SQL_SERVER
   Type: ODBCStore
   Children:
@@ -397,19 +351,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -463,4 +414,24 @@ Children:
   - Name: DSN
     Type: PropertyType
     DataType: String
-    Value: ""
+  - Class: Reference
+    Target: ns=25;i=67
+    Direction: Forward
+  - Name: SFEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SFBufferMaxSize
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: SFBufferUsage
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: SFBufferOverflow
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: SFBufferOverwrite
+    Type: BaseDataVariableType
+    DataType: Boolean

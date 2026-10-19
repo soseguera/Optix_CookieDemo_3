@@ -4,7 +4,6 @@ Children:
 - Name: Labeler_Pressure
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -13,7 +12,6 @@ Children:
 - Name: Labeler_Pressure_Override
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -22,7 +20,6 @@ Children:
 - Name: Labeler_Running
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -31,7 +28,6 @@ Children:
 - Name: Labeler_Temperature
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -40,7 +36,6 @@ Children:
 - Name: Labeler_Vibration
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -49,7 +44,6 @@ Children:
 - Name: Mixer_Pressure
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -58,7 +52,6 @@ Children:
 - Name: Mixer_Running
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -67,7 +60,6 @@ Children:
 - Name: Mixer_Temperature
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -76,7 +68,6 @@ Children:
 - Name: Mixer_Vibration
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -85,7 +76,6 @@ Children:
 - Name: Mixer_Vibration_Override
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -94,7 +84,6 @@ Children:
 - Name: Oven_Pressure
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -103,7 +92,6 @@ Children:
 - Name: Oven_Running
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -112,7 +100,6 @@ Children:
 - Name: Oven_Temperature
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -121,7 +108,6 @@ Children:
 - Name: Oven_Temperature_Override
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -130,7 +116,6 @@ Children:
 - Name: Oven_Vibration
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -139,7 +124,6 @@ Children:
 - Name: Packaging_Pressure
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -148,7 +132,6 @@ Children:
 - Name: Packaging_Running
   Type: RAEtherNetIPTag
   DataType: Boolean
-  Value: false
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -157,7 +140,6 @@ Children:
 - Name: Packaging_Temperature
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -166,7 +148,6 @@ Children:
 - Name: Packaging_Vibration
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -175,7 +156,6 @@ Children:
 - Name: Packaging_Vibration_Override
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
@@ -184,7 +164,6 @@ Children:
 - Name: RANDOM_NUMBER
   Type: RAEtherNetIPTag
   DataType: Float
-  Value: 0.0
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType

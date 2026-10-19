@@ -11,23 +11,18 @@ Children:
     - Name: Flour
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: Water
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: Sugar
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: Special Ingredient
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: Mixing Time
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
   - Class: Reference
     Target: ns=29;i=27
     Direction: Forward
@@ -81,11 +76,9 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: TableName
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
   - Name: EditModel
     Id: g=13f14072253b56ef008c261f11917928
     Type: BaseObjectType
@@ -93,20 +86,15 @@ Children:
     - Name: Flour
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: Water
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: Sugar
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: Special Ingredient
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: Mixing Time
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0

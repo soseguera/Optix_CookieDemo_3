@@ -4,7 +4,6 @@ Children:
 - Name: Oven_Temperature
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -18,7 +17,6 @@ Children:
 - Name: Oven_Pressure
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -32,7 +30,6 @@ Children:
 - Name: Oven_Vibration
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -46,7 +43,6 @@ Children:
 - Name: Oven_Temperature_Override
   Type: BaseDataVariableType
   DataType: Float
-  Value: 0.0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -68,7 +64,6 @@ Children:
 - Name: Oven_Running
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink

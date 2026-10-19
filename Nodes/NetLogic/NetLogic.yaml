@@ -36,7 +36,6 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: DataLoggerExporter
   Id: g=c0c6465d9410a87893b7f25f5f3e8506
   Type: NetLogic
@@ -45,7 +44,6 @@ Children:
   - Name: CSVPath
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
-    Value: ""
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -105,12 +103,9 @@ Children:
   - Name: From
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: To
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: WrapFields
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
