@@ -1,12 +1,13 @@
 Project:
  Name: Optix_CookieDemo_3_Design
  ProjectNamespaceIndex: 4
+ DisplayName: ''
  Description: ''
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.3
- CoreVersion: 3.0
+ ProductVersion: 1.8
+ CoreVersion: 5.0
  Dependencies:
   2:
    Uri: Optix_CookieDemo_3
@@ -14,7 +15,7 @@ Project:
   3:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 3.1
+   Version: 6.1
   5:
    Uri: 'urn:FTOptix:TagImporter'
    Module: FTOptix.TagImporter
@@ -26,15 +27,15 @@ Project:
   7:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net
-   Version: 1.1
+   Version: 2.1
   8:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
-   Version: 1.0
+   Version: 4.0
   9:
    Uri: 'urn:FTOptix:Core:Net'
    Module: FTOptix.Core.Net
-   Version: 1.2
+   Version: 3.0
  Statistics:
   TotalNodeCount: 5
   Objects: 1

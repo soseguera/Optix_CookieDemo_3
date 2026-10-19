@@ -4,11 +4,9 @@ Children:
 - Name: Follow_Trend_Status
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
 - Name: Dynamic_Trend_Status
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
 - Name: Time_Window_Historical
   Type: BaseDataVariableType
   DataType: String
@@ -16,19 +14,17 @@ Children:
 - Name: Auto_Refresh_Time
   Type: BaseDataVariableType
   DataType: Duration
-  Value: "0:00:00:1.0000000"
+  Value: "0:00:00:01.0000000"
 - Name: Sampling_Period_Value
   Type: BaseDataVariableType
   DataType: Duration
-  Value: "0:00:00:5.0000000"
+  Value: "0:00:00:05.0000000"
 - Name: Start_Time_Trend
   Type: BaseDataVariableType
   DataType: DateTime
-  Value: "1601-01-01T00:00:00.0000000"
 - Name: ChartTimeFrame
   Type: BaseDataVariableType
   DataType: UInt32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
